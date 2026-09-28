@@ -1,0 +1,26 @@
+{
+  "independent_off_grid_modes": [
+    {
+      "l": 0,
+      "k": 0.507107595163756,
+      "relative_error": 4.562340785443177e-13
+    },
+    {
+      "l": 3,
+      "k": 11.29941613476758,
+      "relative_error": 1.1348312243732142e-12
+    },
+    {
+      "l": 80,
+      "k": 241.2744183109529,
+      "relative_error": 5.481259730502773e-11
+    },
+    {
+      "l": 150,
+      "k": 723.8078823497357,
+      "relative_error": 1.8597603134543008e-10
+    }
+  ],
+  "all_pass": true,
+  "scope": "Four bounded representative off-fit-point tests, not an error theorem over every possible history/window."
+}

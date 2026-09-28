@@ -1,0 +1,196 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{12}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Hu}\ and\ \citenamefont
+  {Verdaguer}(2008)}]{HuVerdaguer2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~L.}\ \bibnamefont
+  {Hu}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Verdaguer}},\
+  }\bibfield  {title} {\bibinfo {title} {Stochastic gravity: Theory and
+  applications},\ }\href {https://doi.org/10.12942/lrr-2008-3} {\bibfield
+  {journal} {\bibinfo  {journal} {Living Reviews in Relativity}\ }\textbf
+  {\bibinfo {volume} {11}},\ \bibinfo {pages} {3} (\bibinfo {year} {2008})},\
+  \Eprint {https://arxiv.org/abs/0802.0658} {arXiv:0802.0658 [gr-qc]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Phillips}\ and\ \citenamefont
+  {Hu}(2001)}]{PhillipsHu2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~G.}\ \bibnamefont
+  {Phillips}}\ and\ \bibinfo {author} {\bibfnamefont {B.~L.}\ \bibnamefont
+  {Hu}},\ }\bibfield  {title} {\bibinfo {title} {Noise kernel in stochastic
+  gravity and stress energy bitensor of quantum fields in curved spacetimes},\
+  }\href {https://doi.org/10.1103/PhysRevD.63.104001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {63}},\
+  \bibinfo {pages} {104001} (\bibinfo {year} {2001})},\ \Eprint
+  {https://arxiv.org/abs/gr-qc/0010019} {arXiv:gr-qc/0010019} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hu}\ and\ \citenamefont
+  {Phillips}(2000)}]{HuPhillips2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~L.}\ \bibnamefont
+  {Hu}}\ and\ \bibinfo {author} {\bibfnamefont {N.~G.}\ \bibnamefont
+  {Phillips}},\ }\bibfield  {title} {\bibinfo {title} {Fluctuations of energy
+  density and validity of semiclassical gravity},\ }\href
+  {https://doi.org/10.1023/A:1003689630751} {\bibfield  {journal} {\bibinfo
+  {journal} {International Journal of Theoretical Physics}\ }\textbf {\bibinfo
+  {volume} {39}},\ \bibinfo {pages} {1817} (\bibinfo {year} {2000})},\ \Eprint
+  {https://arxiv.org/abs/gr-qc/0004006} {arXiv:gr-qc/0004006} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Anderson}\ \emph {et~al.}(2003)\citenamefont
+  {Anderson}, \citenamefont {Molina-Par{\'i}s},\ and\ \citenamefont
+  {Mottola}}]{Anderson2003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont
+  {Anderson}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Molina-Par{\'i}s}},\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Mottola}},\ }\bibfield  {title} {\bibinfo {title} {Linear response, validity
+  of semiclassical gravity, and the stability of flat space},\ }\href
+  {https://doi.org/10.1103/PhysRevD.67.024026} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {67}},\ \bibinfo
+  {pages} {024026} (\bibinfo {year} {2003})},\ \Eprint
+  {https://arxiv.org/abs/gr-qc/0209075} {arXiv:gr-qc/0209075} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hu}\ \emph {et~al.}(2004)\citenamefont {Hu},
+  \citenamefont {Roura},\ and\ \citenamefont
+  {Verdaguer}}]{HuRouraVerdaguer2004}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~L.}\ \bibnamefont
+  {Hu}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Roura}},\ and\
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Verdaguer}},\ }\bibfield
+  {title} {\bibinfo {title} {Induced quantum metric fluctuations and the
+  validity of semiclassical gravity},\ }\href
+  {https://doi.org/10.1103/PhysRevD.70.044002} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo
+  {pages} {044002} (\bibinfo {year} {2004})},\ \Eprint
+  {https://arxiv.org/abs/gr-qc/0402029} {arXiv:gr-qc/0402029} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Eftekharzadeh}\ \emph {et~al.}(2012)\citenamefont
+  {Eftekharzadeh}, \citenamefont {Bates}, \citenamefont {Roura}, \citenamefont
+  {Anderson},\ and\ \citenamefont {Hu}}]{Eftekharzadeh2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Eftekharzadeh}}, \bibinfo {author} {\bibfnamefont {J.~D.}\ \bibnamefont
+  {Bates}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Roura}},
+  \bibinfo {author} {\bibfnamefont {P.~R.}\ \bibnamefont {Anderson}},\ and\
+  \bibinfo {author} {\bibfnamefont {B.~L.}\ \bibnamefont {Hu}},\ }\bibfield
+  {title} {\bibinfo {title} {Noise kernel for a quantum field in
+  {Schwarzschild} spacetime under the {Gaussian} approximation},\ }\href
+  {https://doi.org/10.1103/PhysRevD.85.044037} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo
+  {pages} {044037} (\bibinfo {year} {2012})},\ \Eprint
+  {https://arxiv.org/abs/1011.4903} {arXiv:1011.4903 [gr-qc]} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Badran}(2026)}]{NumericalArchive}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Badran}},\ }\href@noop {} {\bibinfo {title} {Blackholes localized inward
+  recovery: computational record and numerical data}} (\bibinfo {year}
+  {2026}),\ \bibinfo {note} {private research archive supplied with this draft,
+  \texttt{BlackHoles\_Localized\_Inward\_Recovery.zip}; SHA-256 recorded in
+  Supplemental Material. Not a journal publication or a public repository
+  deposit}\BibitemShut {NoStop}%
+\bibitem [{Sup(2026)}]{SupplementalMaterial}%
+  \BibitemOpen
+  \href@noop {} {\bibinfo {title} {Supplemental methods and reproducibility
+  evidence}} (\bibinfo {year} {2026}),\ \bibinfo {note} {see the accompanying
+  Supplemental Material supplied with this draft for the exact state, filters,
+  complete result tables, and reproducibility details. No publisher URL has
+  been assigned.}\BibitemShut {Stop}%
+\bibitem [{\citenamefont {Hollands}\ and\ \citenamefont
+  {Wald}(2001)}]{HollandsWald2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Hollands}}\ and\ \bibinfo {author} {\bibfnamefont {R.~M.}\ \bibnamefont
+  {Wald}},\ }\bibfield  {title} {\bibinfo {title} {Local {Wick} polynomials and
+  time ordered products of quantum fields in curved spacetime},\ }\href
+  {https://doi.org/10.1007/s002200100540} {\bibfield  {journal} {\bibinfo
+  {journal} {Communications in Mathematical Physics}\ }\textbf {\bibinfo
+  {volume} {223}},\ \bibinfo {pages} {289} (\bibinfo {year} {2001})},\ \Eprint
+  {https://arxiv.org/abs/gr-qc/0103074} {arXiv:gr-qc/0103074} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {D{\'e}canini}\ and\ \citenamefont
+  {Folacci}(2008)}]{DecaniniFolacci2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {D{\'e}canini}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Folacci}},\ }\bibfield  {title} {\bibinfo {title} {Hadamard renormalization
+  of the stress-energy tensor for a quantized scalar field in a general
+  spacetime of arbitrary dimension},\ }\href
+  {https://doi.org/10.1103/PhysRevD.78.044025} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {78}},\ \bibinfo
+  {pages} {044025} (\bibinfo {year} {2008})},\ \Eprint
+  {https://arxiv.org/abs/gr-qc/0512118} {arXiv:gr-qc/0512118} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {{National Institute of Standards and
+  Technology}}(2026)}]{DLMF}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{National Institute of
+  Standards and Technology}}},\ }\href@noop {} {\bibinfo {title} {{Digital
+  Library of Mathematical Functions}, sec.~34.3: Properties of the {3j}
+  symbol}},\ \bibinfo {howpublished} {\url{https://dlmf.nist.gov/34.3}}
+  (\bibinfo {year} {2026}),\ \bibinfo {note} {equations 34.3.19--34.3.22;
+  accessed 27 September 2026}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fewster}\ \emph {et~al.}(2012)\citenamefont
+  {Fewster}, \citenamefont {Ford},\ and\ \citenamefont
+  {Roman}}]{FewsterFordRoman2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {Fewster}}, \bibinfo {author} {\bibfnamefont {L.~H.}\ \bibnamefont {Ford}},\
+  and\ \bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont {Roman}},\
+  }\bibfield  {title} {\bibinfo {title} {Probability distributions for quantum
+  stress tensors in four dimensions},\ }\href
+  {https://doi.org/10.1103/PhysRevD.85.125038} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review D}\ }\textbf {\bibinfo {volume} {85}},\ \bibinfo
+  {pages} {125038} (\bibinfo {year} {2012})},\ \Eprint
+  {https://arxiv.org/abs/1204.3570} {arXiv:1204.3570 [quant-ph]} \BibitemShut
+  {NoStop}%
+\end{thebibliography}%

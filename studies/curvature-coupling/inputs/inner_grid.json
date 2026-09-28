@@ -1,0 +1,9 @@
+{
+  "name": "inner_grid",
+  "prior": "r030_fine",
+  "nt": 560,
+  "L": 191,
+  "Jmax": 32,
+  "K": 1152,
+  "nk": 320
+}

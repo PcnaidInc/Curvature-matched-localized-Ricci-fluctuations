@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-27",
+  "input_archive": "BlackHoles_Localized_Inward_Recovery.zip",
+  "bytes": 104969383,
+  "sha256": "6dfce42994b5b82c15992430fc8c52336efdc907204f5d6d59579940d453b378",
+  "scope": "Input ZIP CRC verified. Bundled prior/ is a documented subset, NOT the entire prior archive. Original FILE_HASHES is retained as source identity; delivery manifest covers actual bundled subset.",
+  "reused_same_window_histories": 480,
+  "new_contractions": "Separate three-operator covariance includes conformal observer source and all its cross-correlations.",
+  "new_mode_evolutions": "Only outer_grid/inner_grid refinements and six independent reference modes; repeated algebraic xi evaluations are not separate mode campaigns.",
+  "reused_code": {
+    "localized_trace.py": "4bac4a0c2ce5206ba65026d0a90cbec0f5126da9a71b160eb9c635f631715668",
+    "localized_trace_fast.py": "1a923ca6bd5803483255384c74a4d452603995be47119a6c700cdb2dffd0094f",
+    "prepared_geometry.py": "37d3659de2f1cbe9cf15def5105cdd5e184c3164024791502162ca00c085978d",
+    "reference_fluctuations.py": "dfb5faba63d9dc8d85bed986a3f360709f2b64152c66542b5c49ed180d701e62"
+  }
+}

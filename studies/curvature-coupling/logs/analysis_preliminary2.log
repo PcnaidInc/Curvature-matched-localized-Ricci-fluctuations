@@ -1,0 +1,24 @@
+{
+  "all_primary_pass": false,
+  "execution": [
+    {
+      "campaign": "middle",
+      "pair_blocks": 160,
+      "pair_evaluations": 4752,
+      "summed_block_seconds": 142.70111359399974,
+      "new_field_labels": 0,
+      "scope": "cached phase-history contraction"
+    },
+    {
+      "campaign": "outer",
+      "pair_blocks": 128,
+      "pair_evaluations": 3696,
+      "summed_block_seconds": 68.4039458819999,
+      "new_field_labels": 0,
+      "scope": "cached phase-history contraction"
+    }
+  ],
+  "accepted_scope": "fixed Cauchy state on final Ricci-flat Schwarzschild, trace and one trace-reversed observer projection; not a different collapse preparation or full metric",
+  "notes": "new nontrace contractions; trace dependence exact. Grid comparison is fresh time/momentum/ODE at outer and inner, history time-grid only middle. Cutoff tails are not rigorous infinite-tail bounds."
+}
+FAILED ['outer_d0_xi0.0_grid', 'outer_d0_xi0.08333333333333333_grid', 'outer_d0_xi0.16666666666666666_grid', 'outer_d0_xi0.25_grid', 'outer_d0.5_xi0.0_grid', 'outer_d0.5_xi0.08333333333333333_grid', 'outer_d0.5_xi0.16666666666666666_grid', 'outer_d0.5_xi0.25_grid', 'outer_d0.25_xi0.0_grid', 'outer_d0.25_xi0.08333333333333333_grid', 'outer_d0.25_xi0.16666666666666666_grid', 'outer_d0.25_xi0.25_grid', 'middle_d0_xi0.0_grid', 'middle_d0_xi0.08333333333333333_grid', 'middle_d0_xi0.16666666666666666_grid', 'middle_d0_xi0.25_grid', 'middle_d0.4330127018922193_xi0.0_grid', 'middle_d0.4330127018922193_xi0.08333333333333333_grid', 'middle_d0.4330127018922193_xi0.16666666666666666_grid', 'middle_d0.4330127018922193_xi0.25_grid', 'middle_d0.21650635094610965_xi0.0_grid', 'middle_d0.21650635094610965_xi0.08333333333333333_grid', 'middle_d0.21650635094610965_xi0.16666666666666666_grid', 'middle_d0.21650635094610965_xi0.25_grid', 'GRAM_CHECK.json']

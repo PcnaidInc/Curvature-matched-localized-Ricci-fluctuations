@@ -1,0 +1,30 @@
+{
+  "date_utc": "2026-09-27T23:48:45.054181+00:00",
+  "user_request": "Submission locations/multiple journals/account preparation, then next scientific task.",
+  "jira_ledger": "[internal record]",
+  "task": "[internal record] first definition/reference milestone",
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "production_SPV1_mode_evolutions": 0,
+  "new_science": "27 primary symbolic/numerical checks, optical ODEs and flat vacuum spectral quadratures; extra high-frequency sensitivity. This is new reference work, not full black-hole stochastic response.",
+  "commands": [
+    "python code/optical_benchmark.py --out results",
+    "python code/check_curved_optics.py --out verification",
+    "python code/check_normalization.py --out verification",
+    "python code/check_tail.py --out verification",
+    "python reproduce.py checks --out FRESH_DIRECTORY"
+  ],
+  "reuse": "Inspected prior state/coupling definitions; no reuse of old numerical variances as new output.",
+  "initial_failure": "JSON print on numpy.bool after successful data write. Fixed type serialization; original script/log retained.",
+  "not_done": [
+    "No external account/DOI/repository/submission/payment",
+    "No new black-hole covariance result",
+    "No full Einstein-Langevin or nonlinear Einstein solution",
+    "No intrinsic-gravity or Kerr-ring result"
+  ],
+  "elapsed_seconds_core_final": 13.860183973999938,
+  "elapsed_seconds_tensor": 4.830058269000006,
+  "timing_note": "Times are individual check commands, not total session duration; fresh rerun recorded separately."
+}

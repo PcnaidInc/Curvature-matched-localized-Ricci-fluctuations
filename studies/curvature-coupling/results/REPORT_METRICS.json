@@ -1,0 +1,16 @@
+{
+  "primary_maxima": {
+    "baseline_overlap": 1.532660428155706e-13,
+    "angular_covariance": 6.163186921135034e-08,
+    "momentum_tail_covariance": 5.572696761839128e-05,
+    "external_harmonic_covariance": 2.8880818545946805e-08,
+    "independent_grid_covariance": 2.3236094649478753e-07
+  },
+  "blocks": 960,
+  "new_field_labels": 90112,
+  "observer_conformal_relative_RMS": [
+    0.017237942652226713,
+    0.016227001212368856,
+    0.015961705363125134
+  ]
+}

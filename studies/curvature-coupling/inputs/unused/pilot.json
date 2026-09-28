@@ -1,0 +1,7 @@
+{
+  "name": "pilot",
+  "prior": "r060_fine",
+  "nt": 160,
+  "L": 31,
+  "Jmax": 32
+}

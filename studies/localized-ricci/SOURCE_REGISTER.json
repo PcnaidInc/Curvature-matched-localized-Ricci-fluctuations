@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-26",
+  "sources": [
+    {
+      "title": "Noise Kernel in Stochastic Gravity and Stress Energy Bi-Tensor of Quantum Fields in Curved Spacetimes",
+      "authors": "Nicholas G. Phillips; B. L. Hu",
+      "id": "gr-qc/0010019",
+      "url": "https://arxiv.org/html/gr-qc/0010019",
+      "use": "Connected noise definitions, trace and c-number qualifications; selected introduction/noise sections read live, not a claimed full-paper audit."
+    },
+    {
+      "title": "Stochastic Gravity: Theory and Applications",
+      "authors": "B. L. Hu; E. Verdaguer",
+      "id": "0802.0658",
+      "url": "https://arxiv.org/abs/0802.0658",
+      "use": "Mean versus fluctuations/metric response; abstract inspected. Attempted versioned HTML returned404; no full-text reading claimed."
+    },
+    {
+      "title": "NIST DLMF 34.3, Gaunt/Wigner coefficients",
+      "url": "https://dlmf.nist.gov/34.3",
+      "use": "Independent angular identities, E19-E22; section inspected."
+    },
+    {
+      "title": "Induced quantum metric fluctuations and the validity of semiclassical gravity",
+      "authors": "B. L. Hu; Albert Roura; Enric Verdaguer",
+      "id": "gr-qc/0402029",
+      "url": "https://arxiv.org/abs/gr-qc/0402029",
+      "use": "Intrinsic versus induced fluctuation/validity distinction; abstract inspected."
+    }
+  ],
+  "new_result_provenance": "New mode/pair evolutions plus clearly reused state/code; no source numeric arrays used to generate covariance."
+}

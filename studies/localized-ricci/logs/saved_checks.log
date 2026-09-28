@@ -1,0 +1,46 @@
+{
+  "all_pass": true,
+  "production_mode_labels": 187904,
+  "field_angular_records": 896,
+  "verified_pairblocks": 896,
+  "resume_new_modes": 0,
+  "resume_skipped_blocks": 32,
+  "corruption_rejected": true,
+  "campaigns": [
+    {
+      "name": "pilot",
+      "pairs": 32,
+      "labels": 2560
+    },
+    {
+      "name": "r030_fine",
+      "pairs": 192,
+      "labels": 49152
+    },
+    {
+      "name": "r030_main",
+      "pairs": 160,
+      "labels": 35840
+    },
+    {
+      "name": "r045_fine",
+      "pairs": 160,
+      "labels": 35840
+    },
+    {
+      "name": "r045_main",
+      "pairs": 128,
+      "labels": 24576
+    },
+    {
+      "name": "r060_fine",
+      "pairs": 128,
+      "labels": 24576
+    },
+    {
+      "name": "r060_main",
+      "pairs": 96,
+      "labels": 15360
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "middle_time",
+  "prior": "r045_fine",
+  "nt": 480,
+  "L": 159,
+  "Jmax": 32
+}

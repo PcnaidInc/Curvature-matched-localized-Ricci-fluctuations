@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PH2001",
+    "authors": "Nicholas G. Phillips and B. L. Hu",
+    "title": "Noise Kernel in Stochastic Gravity and Stress Energy Bi-Tensor of Quantum Fields in Curved Spacetimes",
+    "journal": "Physical Review D 63, 104001 (2001)",
+    "doi": "10.1103/PhysRevD.63.104001",
+    "arxiv": "gr-qc/0010019v2",
+    "url": "https://arxiv.org/html/gr-qc/0010019v2",
+    "inspected": "abstract, section III.3 and definitions in the primary HTML",
+    "role": "Known conformal trace-noise null; connected covariance and c-number distinction"
+  },
+  {
+    "id": "BFK2018",
+    "authors": "Peter J. Brown, Christopher J. Fewster and Eleni-Alexandra Kontou",
+    "title": "A singularity theorem for Einstein\u2013Klein\u2013Gordon theory",
+    "journal": "General Relativity and Gravitation 50, 121 (2018)",
+    "doi": "10.1007/s10714-018-2446-5",
+    "url": "https://link.springer.com/article/10.1007/s10714-018-2446-5",
+    "inspected": "Sections 2 and 3, equations 7\u201318 and signature convention",
+    "role": "Improved scalar stress and trace-reversed source; convention converted and independently checked. Its singularity theorem is not applied to this quantum result."
+  },
+  {
+    "id": "HV2008",
+    "authors": "B. L. Hu and E. Verdaguer",
+    "title": "Stochastic Gravity: Theory and Applications",
+    "journal": "Living Reviews in Relativity 11, 3 (2008)",
+    "doi": "10.12942/lrr-2008-3",
+    "arxiv": "0802.0658",
+    "url": "https://arxiv.org/abs/0802.0658",
+    "inspected": "abstract and publication metadata",
+    "role": "Distinguish mean stress, stress correlations and full metric response; no claimed replication of a full Einstein\u2013Langevin solution."
+  }
+]

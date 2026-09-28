@@ -1,0 +1,18 @@
+{
+  "ricci_flat": true,
+  "KG": "0",
+  "box_phi_squared_minus_2gradient": "0",
+  "trace_law": "0",
+  "conformal_trace": "0",
+  "divergence": [
+    "0",
+    "0",
+    "0",
+    "0"
+  ],
+  "observer_projection": "0",
+  "seconds": 3.8519753410000135,
+  "test_field": "phi=x+(r-1)cos(theta); exact harmonic test with angular and longitudinal dependence",
+  "general_identity": "div(g box - Hess) q = -Ricci . grad(q); zero on Ricci-flat background for any smooth q",
+  "all_pass": true
+}

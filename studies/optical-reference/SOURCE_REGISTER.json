@@ -1,0 +1,94 @@
+[
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[1] PRD author guidance: https://journals.aps.org/prd/authors (scope, article types, format, preprints, supplemental material, AI/data statements).",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[2] APS editorial policies: https://journals.aps.org/authors/editorial-policies (simultaneous-submission restriction and author responsibilities).",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[3] CQG author guidance: https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/ (official submission entry point and supplemental-file requirements).",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[4] ORCID registration: https://orcid.org/register ; eligibility/free identifier explanation: https://info.orcid.org/researchers/ .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[5] arXiv submission overview: https://info.arxiv.org/help/submit/index.html ; registration: https://arxiv.org/user/register .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[6] arXiv endorsement: https://info.arxiv.org/help/endorsement.html .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[7] IOP preprint policy: https://publishingsupport.iopscience.iop.org/questions/can-i-submit-an-article-that-has-been-posted-as-a-preprint/ .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[8] IOP ethical policy: https://publishingsupport.iopscience.iop.org/ethical-policy-journals/ .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[9] Zenodo files: https://help.zenodo.org/docs/deposit/manage-files/ ; record-version documentation: https://zenodo.org/help/versioning .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[10] CQG scope and publication charges: https://publishingsupport.iopscience.iop.org/journals/classical-and-quantum-gravity/about-classical-quantum-gravity/ .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "official submission policy/registration",
+    "date_checked": "2026-09-27",
+    "description": "[11] APS APCs: https://journals.aps.org/authors/apcs .",
+    "access": "Official parsed page or official search result; registration forms may require JavaScript; no account submitted."
+  },
+  {
+    "role": "primary scientific precedent",
+    "title": "The Effects of Stress Tensor Fluctuations upon Focusing",
+    "authors": "J. Borgman and L. H. Ford",
+    "url": "https://arxiv.org/html/gr-qc/0307043",
+    "doi": "10.1103/PhysRevD.70.064032",
+    "inspected": "Abstract and relevant sections II\u2013III, including exact equations11\u201325 and smearing discussion; not independently reproduced full paper.",
+    "use": "Raychaudhuri/stress covariance precedent; our beam kernel and benchmarks derived separately."
+  },
+  {
+    "role": "scientific framework",
+    "title": "Stochastic Gravity: Theory and Applications",
+    "authors": "B. L. Hu and E. Verdaguer",
+    "url": "https://arxiv.org/abs/0802.0658",
+    "inspected": "arXiv abstract/metadata this turn; no claim of full-text audit",
+    "use": "Distinction between matter correlations and full gravitational response."
+  },
+  {
+    "role": "known-answer control",
+    "title": "Noise Kernel in Stochastic Gravity and Stress Energy Bi-Tensor of Quantum Fields in Curved Spacetimes",
+    "authors": "N. G. Phillips and B. L. Hu",
+    "url": "https://arxiv.org/abs/gr-qc/0010019",
+    "doi": "10.1103/PhysRevD.63.104001",
+    "inspected": "arXiv abstract/metadata this turn; prior project analysis separately recorded",
+    "use": "Established conformal connected-trace null; not a proof all stress vanishes."
+  }
+]

@@ -1,0 +1,135 @@
+{
+  "Hessian_IBP": [
+    {
+      "prior": "r060_fine",
+      "l": 0,
+      "p": 0,
+      "k": 0.052623316555028055,
+      "kp": 0.12931558294748413,
+      "H_direct_real": -0.7204300608702202,
+      "H_direct_imag": 32.161001695725076,
+      "IBP_error_parent": 2.728417477814348e-13
+    },
+    {
+      "prior": "r060_fine",
+      "l": 3,
+      "p": 4,
+      "k": 5.333466549401038,
+      "kp": 6.5919859888923895,
+      "H_direct_real": 28.30657781327488,
+      "H_direct_imag": -1.3991012649271544,
+      "IBP_error_parent": 4.0515689742287e-14
+    },
+    {
+      "prior": "r060_fine",
+      "l": 40,
+      "p": 43,
+      "k": 41.449904711743386,
+      "kp": 44.57348577022219,
+      "H_direct_real": -13.424943654716731,
+      "H_direct_imag": -24.654367174916167,
+      "IBP_error_parent": 7.118334004338881e-14
+    },
+    {
+      "prior": "r060_fine",
+      "l": 80,
+      "p": 83,
+      "k": 116.52620716374123,
+      "kp": 122.77907859532306,
+      "H_direct_real": 0.03188914841945594,
+      "H_direct_imag": 0.008707929351068521,
+      "IBP_error_parent": 4.874259187472794e-10
+    },
+    {
+      "prior": "r030_fine",
+      "l": 0,
+      "p": 0,
+      "k": 0.11115004355369607,
+      "kp": 0.27315001619450996,
+      "H_direct_real": 40.136056411565534,
+      "H_direct_imag": 293.3436139697227,
+      "IBP_error_parent": 9.932259090483908e-13
+    },
+    {
+      "prior": "r030_fine",
+      "l": 3,
+      "p": 4,
+      "k": 11.29941613476758,
+      "kp": 13.975882329243348,
+      "H_direct_real": 144.402821927805,
+      "H_direct_imag": -1.8351716347303162,
+      "IBP_error_parent": 1.6944521556739704e-13
+    },
+    {
+      "prior": "r030_fine",
+      "l": 40,
+      "p": 43,
+      "k": 89.78083383531285,
+      "kp": 96.74415310455805,
+      "H_direct_real": 348.24242034862164,
+      "H_direct_imag": 316.79063820477324,
+      "IBP_error_parent": 6.367807770306038e-14
+    },
+    {
+      "prior": "r030_fine",
+      "l": 80,
+      "p": 83,
+      "k": 267.2076557051869,
+      "kp": 283.15688569501606,
+      "H_direct_real": 34.08257153913641,
+      "H_direct_imag": 6.340369486798245,
+      "IBP_error_parent": 3.91658981120967e-12
+    }
+  ],
+  "max_IBP_parent": 4.874259187472794e-10,
+  "expanded_conformal_amplitude_max_parent": 8.11899800373355e-11,
+  "independent_complex_modes": [
+    {
+      "prior": "r060_fine",
+      "l": 0,
+      "k": 0.24006142429250588,
+      "relative_error": 4.944563578676014e-14
+    },
+    {
+      "prior": "r060_fine",
+      "l": 3,
+      "k": 5.333466549401038,
+      "relative_error": 1.2658850332834165e-12
+    },
+    {
+      "prior": "r060_fine",
+      "l": 70,
+      "k": 57.92185497301824,
+      "relative_error": 1.6717651700967478e-11
+    },
+    {
+      "prior": "r030_fine",
+      "l": 0,
+      "k": 0.507107595163756,
+      "relative_error": 4.945053654531491e-13
+    },
+    {
+      "prior": "r030_fine",
+      "l": 3,
+      "k": 11.29941613476758,
+      "relative_error": 8.661511388203145e-13
+    },
+    {
+      "prior": "r030_fine",
+      "l": 70,
+      "k": 126.85319381475944,
+      "relative_error": 3.270084734015869e-11
+    }
+  ],
+  "max_complex_error": 3.270084734015869e-11,
+  "flat_plane_pair_error": 4.494143610547113e-16,
+  "compact_derivative_fourier_errors": [
+    1.0575523822597733e-15,
+    2.731984070965253e-16,
+    2.3660474335454185e-15,
+    1.390459922023982e-15
+  ],
+  "new_reference_mode_evolutions": 6,
+  "notes": "No new production modes. Six independent small reference modes. H identities normalize by parent amplitude, not near-cancelled output.",
+  "all_pass": true
+}

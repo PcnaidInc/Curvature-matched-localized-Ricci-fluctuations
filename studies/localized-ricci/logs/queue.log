@@ -1,0 +1,15 @@
+LAUNCH pilot 702
+LAUNCH r060_main 703
+EXIT pilot 0
+LAUNCH r060_fine 711
+EXIT r060_main 0
+LAUNCH r045_main 743
+EXIT r060_fine 0
+LAUNCH r045_fine 804
+EXIT r045_main 0
+LAUNCH r030_main 840
+EXIT r045_fine 0
+LAUNCH r030_fine 1192
+EXIT r030_main 0
+EXIT r030_fine 0
+FINISHED

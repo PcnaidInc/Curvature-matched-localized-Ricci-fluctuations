@@ -1,0 +1,208 @@
+{
+  "date_utc": "2026-09-26",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "scope": "Fresh inward localized covariance and controls; no new absolute mean subtraction or nonlinear gravity.",
+  "campaigns": [
+    {
+      "name": "pilot",
+      "pairs": 32,
+      "labels": 2560,
+      "config": {
+        "center": 0.6,
+        "sigma": 0.02,
+        "bproper": 0.25,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-10,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.5,
+          0.25
+        ],
+        "name": "pilot",
+        "L": 31,
+        "K": 112,
+        "nk": 80,
+        "nt": 128
+      },
+      "field_seconds_sum": 6.6009253449999505,
+      "pair_block_seconds_including_some_field_generation": 7.555777193999859,
+      "first_utc": "2026-09-26T22:53:28.901283+00:00",
+      "last_utc": "2026-09-26T22:53:42.684879+00:00",
+      "nfev_sum": 209683
+    },
+    {
+      "name": "r030_fine",
+      "pairs": 192,
+      "labels": 49152,
+      "config": {
+        "center": 0.3,
+        "sigma": 0.007071067811865476,
+        "bproper": 0.08838834764831845,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.3535533905932738,
+          0.1767766952966369
+        ],
+        "name": "r030_fine",
+        "L": 191,
+        "K": 960,
+        "nk": 256,
+        "nt": 448
+      },
+      "field_seconds_sum": 348.3930023190005,
+      "pair_block_seconds_including_some_field_generation": 474.575193357,
+      "first_utc": "2026-09-26T23:01:08.335181+00:00",
+      "last_utc": "2026-09-26T23:08:16.846306+00:00",
+      "nfev_sum": 9974427
+    },
+    {
+      "name": "r030_main",
+      "pairs": 160,
+      "labels": 35840,
+      "config": {
+        "center": 0.3,
+        "sigma": 0.007071067811865476,
+        "bproper": 0.08838834764831845,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-10,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.3535533905932738,
+          0.1767766952966369
+        ],
+        "name": "r030_main",
+        "L": 159,
+        "K": 800,
+        "nk": 224,
+        "nt": 384
+      },
+      "field_seconds_sum": 178.73876461900016,
+      "pair_block_seconds_including_some_field_generation": 250.4037020360002,
+      "first_utc": "2026-09-26T22:57:24.705839+00:00",
+      "last_utc": "2026-09-26T23:01:06.298770+00:00",
+      "nfev_sum": 5136737
+    },
+    {
+      "name": "r045_fine",
+      "pairs": 160,
+      "labels": 35840,
+      "config": {
+        "center": 0.45,
+        "sigma": 0.01299038105676658,
+        "bproper": 0.16237976320958225,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.4330127018922193,
+          0.21650635094610965
+        ],
+        "name": "r045_fine",
+        "L": 159,
+        "K": 480,
+        "nk": 224,
+        "nt": 384
+      },
+      "field_seconds_sum": 184.08704024699938,
+      "pair_block_seconds_including_some_field_generation": 255.50760155199953,
+      "first_utc": "2026-09-26T22:56:30.186980+00:00",
+      "last_utc": "2026-09-26T23:00:17.389470+00:00",
+      "nfev_sum": 5228207
+    },
+    {
+      "name": "r045_main",
+      "pairs": 128,
+      "labels": 24576,
+      "config": {
+        "center": 0.45,
+        "sigma": 0.01299038105676658,
+        "bproper": 0.16237976320958225,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-10,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.4330127018922193,
+          0.21650635094610965
+        ],
+        "name": "r045_main",
+        "L": 127,
+        "K": 400,
+        "nk": 192,
+        "nt": 320
+      },
+      "field_seconds_sum": 88.7503025970002,
+      "pair_block_seconds_including_some_field_generation": 125.44743280599971,
+      "first_utc": "2026-09-26T22:55:04.845998+00:00",
+      "last_utc": "2026-09-26T22:56:51.341539+00:00",
+      "nfev_sum": 2548738
+    },
+    {
+      "name": "r060_fine",
+      "pairs": 128,
+      "labels": 24576,
+      "config": {
+        "center": 0.6,
+        "sigma": 0.02,
+        "bproper": 0.25,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.5,
+          0.25
+        ],
+        "name": "r060_fine",
+        "L": 127,
+        "K": 256,
+        "nk": 192,
+        "nt": 320
+      },
+      "field_seconds_sum": 92.2635025960002,
+      "pair_block_seconds_including_some_field_generation": 128.789716633,
+      "first_utc": "2026-09-26T22:54:06.515762+00:00",
+      "last_utc": "2026-09-26T22:55:56.742411+00:00",
+      "nfev_sum": 2611177
+    },
+    {
+      "name": "r060_main",
+      "pairs": 96,
+      "labels": 15360,
+      "config": {
+        "center": 0.6,
+        "sigma": 0.02,
+        "bproper": 0.25,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-10,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.5,
+          0.25
+        ],
+        "name": "r060_main",
+        "L": 95,
+        "K": 224,
+        "nk": 160,
+        "nt": 256
+      },
+      "field_seconds_sum": 42.82167244500016,
+      "pair_block_seconds_including_some_field_generation": 59.14862062299994,
+      "first_utc": "2026-09-26T22:53:54.690360+00:00",
+      "last_utc": "2026-09-26T22:54:41.010761+00:00",
+      "nfev_sum": 1220661
+    }
+  ],
+  "unique_mode_labels": 187904,
+  "pair_blocks": 896,
+  "no_jobs_running_at_handoff": "Checked separately before release",
+  "wall_time_warning": "Sums across blocks are not turn elapsed time. Field time may overlap pair-block time; do not add them together."
+}

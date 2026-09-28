@@ -1,0 +1,41 @@
+{
+  "prepared_date": "2026-09-28",
+  "remote_repository_verified": false,
+  "new_scientific_calculation": false,
+  "studies": {
+    "localized-ricci": {
+      "original_archive": "BlackHoles_Localized_Inward_Recovery.zip",
+      "original_sha256": "6dfce42994b5b82c15992430fc8c52336efdc907204f5d6d59579940d453b378",
+      "unchanged_array_files": 2286,
+      "retained_files": 4162,
+      "modified_documentation": [
+        "DEVELOPMENT_AND_LIMITS.md",
+        "TECHNICAL_NOTE.md"
+      ],
+      "excluded_count": 8
+    },
+    "curvature-coupling": {
+      "original_archive": "BlackHoles_Curvature_Coupling_Control_Final.zip",
+      "original_sha256": "c13a616650404234733b21d2714f1a7e5a3b9e14059651fb799c14a1db3e3f42",
+      "unchanged_array_files": 1775,
+      "retained_files": 3140,
+      "modified_documentation": [
+        "RUN_RECORD.json",
+        "TECHNICAL_NOTE.md",
+        "VALIDATION_PLAN.md"
+      ],
+      "excluded_count": 19
+    },
+    "optical-reference": {
+      "original_archive": "BlackHoles_Submission_Guide_and_Causal_Response_Benchmark.zip",
+      "original_sha256": "6501a4431f494877e63cd226ca6681961357dc88337c661ac3de7f9955ad3343",
+      "unchanged_array_files": 0,
+      "retained_files": 33,
+      "modified_documentation": [
+        "RUN_RECORD.json",
+        "VALIDATION_PLAN.md"
+      ],
+      "excluded_count": 12
+    }
+  }
+}

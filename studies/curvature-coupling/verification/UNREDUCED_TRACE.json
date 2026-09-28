@@ -1,0 +1,134 @@
+{
+  "checks": [
+    {
+      "prior": "r060_fine",
+      "l": 0,
+      "p": 0,
+      "sign": -1,
+      "error": 8.326732787199198e-16
+    },
+    {
+      "prior": "r060_fine",
+      "l": 0,
+      "p": 0,
+      "sign": 1,
+      "error": 8.314301250999741e-16
+    },
+    {
+      "prior": "r060_fine",
+      "l": 3,
+      "p": 4,
+      "sign": -1,
+      "error": 3.2967785388446293e-16
+    },
+    {
+      "prior": "r060_fine",
+      "l": 3,
+      "p": 4,
+      "sign": 1,
+      "error": 3.533057601430461e-16
+    },
+    {
+      "prior": "r060_fine",
+      "l": 70,
+      "p": 73,
+      "sign": -1,
+      "error": 2.6223411723261596e-16
+    },
+    {
+      "prior": "r060_fine",
+      "l": 70,
+      "p": 73,
+      "sign": 1,
+      "error": 2.756695492902428e-16
+    },
+    {
+      "prior": "r045_fine",
+      "l": 0,
+      "p": 0,
+      "sign": -1,
+      "error": 1.0230810355363503e-15
+    },
+    {
+      "prior": "r045_fine",
+      "l": 0,
+      "p": 0,
+      "sign": 1,
+      "error": 1.0220702994575398e-15
+    },
+    {
+      "prior": "r045_fine",
+      "l": 3,
+      "p": 4,
+      "sign": -1,
+      "error": 3.482716121732006e-16
+    },
+    {
+      "prior": "r045_fine",
+      "l": 3,
+      "p": 4,
+      "sign": 1,
+      "error": 4.0785945982587447e-16
+    },
+    {
+      "prior": "r045_fine",
+      "l": 70,
+      "p": 73,
+      "sign": -1,
+      "error": 2.537574012824647e-16
+    },
+    {
+      "prior": "r045_fine",
+      "l": 70,
+      "p": 73,
+      "sign": 1,
+      "error": 3.5835652029592165e-16
+    },
+    {
+      "prior": "r030_fine",
+      "l": 0,
+      "p": 0,
+      "sign": -1,
+      "error": 1.3180570940875815e-15
+    },
+    {
+      "prior": "r030_fine",
+      "l": 0,
+      "p": 0,
+      "sign": 1,
+      "error": 1.2261739875699724e-15
+    },
+    {
+      "prior": "r030_fine",
+      "l": 3,
+      "p": 4,
+      "sign": -1,
+      "error": 3.4170696794966604e-16
+    },
+    {
+      "prior": "r030_fine",
+      "l": 3,
+      "p": 4,
+      "sign": 1,
+      "error": 2.5854461697724314e-16
+    },
+    {
+      "prior": "r030_fine",
+      "l": 70,
+      "p": 73,
+      "sign": -1,
+      "error": 3.2922626088054337e-16
+    },
+    {
+      "prior": "r030_fine",
+      "l": 70,
+      "p": 73,
+      "sign": 1,
+      "error": 3.372978139622222e-16
+    }
+  ],
+  "max_relative_parent": 1.3180570940875815e-15,
+  "all_pass": true,
+  "new_mode_evolutions": 0,
+  "scope": "Unreduced field-pair differential trace on actual same-window histories; not a second proof of anomaly renormalization."
+}

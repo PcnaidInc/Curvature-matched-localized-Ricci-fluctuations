@@ -1,0 +1,306 @@
+{
+  "scope": "Localized trace and time-direction Ricci projections, leading Einstein order; not a full metric/Weyl solution",
+  "config": {
+    "center": 0.6,
+    "sigma": 0.02,
+    "bproper": 0.25,
+    "seed": 1.0,
+    "rmin": 0.2,
+    "rtol": 2e-11,
+    "Jmax": 24,
+    "name": "precision",
+    "L": 143,
+    "K": 256,
+    "nk": 224,
+    "nt": 384
+  },
+  "support": [
+    0.4302265108822559,
+    0.7407810774998662
+  ],
+  "mean_sqrtK": 32.37400395231308,
+  "epsilon": 1e-08,
+  "rows": [
+    {
+      "observable": "trace",
+      "delta_radians": null,
+      "effective_fraction": 1.0,
+      "source_RMS_hbar_over_M4": 1141.230816959233,
+      "static_RMS": 1143.280762303128,
+      "RMS_enhancement": 1.0,
+      "reference_enhancement": 1.0,
+      "enhancement_ratio_to_reference": 1.0,
+      "RMS_ratio_to_static": 0.9982069624439709,
+      "white_angular_enhancement": 1.0,
+      "Ricci_to_background_per_epsilon": 885.9657534830789,
+      "percent_example": 0.0008859657534830788,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "trace",
+      "delta_radians": 1.0,
+      "effective_fraction": 0.7049985475373922,
+      "source_RMS_hbar_over_M4": 1358.8734823477766,
+      "static_RMS": 1361.3145196495093,
+      "RMS_enhancement": 1.1907087174253184,
+      "reference_enhancement": 1.1907088481985426,
+      "enhancement_ratio_to_reference": 0.9999998901719556,
+      "RMS_ratio_to_static": 0.9982068528128525,
+      "white_angular_enhancement": 1.190983895202221,
+      "Ricci_to_background_per_epsilon": 1054.9271460125929,
+      "percent_example": 0.0010549271460125928,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "trace",
+      "delta_radians": 0.5,
+      "effective_fraction": 0.22984022972667703,
+      "source_RMS_hbar_over_M4": 2377.2452928323155,
+      "static_RMS": 2381.517059040235,
+      "RMS_enhancement": 2.0830538901555404,
+      "reference_enhancement": 2.0830553067670725,
+      "enhancement_ratio_to_reference": 0.9999993199357081,
+      "RMS_ratio_to_static": 0.9982062835990597,
+      "white_angular_enhancement": 2.0858687442979567,
+      "Ricci_to_background_per_epsilon": 1845.5144093375118,
+      "percent_example": 0.0018455144093375117,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "trace",
+      "delta_radians": 0.25,
+      "effective_fraction": 0.06120868647605686,
+      "source_RMS_hbar_over_M4": 4586.438046336294,
+      "static_RMS": 4594.6924281298225,
+      "RMS_enhancement": 4.018852258613808,
+      "reference_enhancement": 4.018866213469611,
+      "enhancement_ratio_to_reference": 0.9999965276635095,
+      "RMS_ratio_to_static": 0.9982034963335101,
+      "white_angular_enhancement": 4.04197357690517,
+      "Ricci_to_background_per_epsilon": 3560.5654694399555,
+      "percent_example": 0.003560565469439955,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "trace",
+      "delta_radians": 0.125,
+      "effective_fraction": 0.015543789018263634,
+      "source_RMS_hbar_over_M4": 8948.10436053364,
+      "static_RMS": 8964.321353950165,
+      "RMS_enhancement": 7.840748976947127,
+      "reference_enhancement": 7.8408748310359275,
+      "enhancement_ratio_to_reference": 0.9999839489736142,
+      "RMS_ratio_to_static": 0.9981909401976783,
+      "white_angular_enhancement": 8.020871406049215,
+      "Ricci_to_background_per_epsilon": 6946.635075232641,
+      "percent_example": 0.00694663507523264,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "time_projection",
+      "delta_radians": null,
+      "effective_fraction": 1.0,
+      "source_RMS_hbar_over_M4": 572.6639092657732,
+      "static_RMS": 572.4472370873752,
+      "RMS_enhancement": 1.0,
+      "reference_enhancement": 1.0,
+      "enhancement_ratio_to_reference": 1.0,
+      "RMS_ratio_to_static": 1.0003785015707307,
+      "white_angular_enhancement": 1.0,
+      "Ricci_to_background_per_epsilon": 444.5731786467699,
+      "percent_example": 0.0004445731786467699,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "time_projection",
+      "delta_radians": 1.0,
+      "effective_fraction": 0.7049985475373922,
+      "source_RMS_hbar_over_M4": 681.9795354734551,
+      "static_RMS": 681.7229007576221,
+      "RMS_enhancement": 1.19088967270146,
+      "reference_enhancement": 1.190892114749726,
+      "enhancement_ratio_to_reference": 0.9999979493958892,
+      "RMS_ratio_to_static": 1.0003764501904626,
+      "white_angular_enhancement": 1.190983895202221,
+      "Ricci_to_background_per_epsilon": 529.4376072104996,
+      "percent_example": 0.0005294376072104996,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "time_projection",
+      "delta_radians": 0.5,
+      "effective_fraction": 0.22984022972667703,
+      "source_RMS_hbar_over_M4": 1193.9599425270665,
+      "static_RMS": 1193.5119111481915,
+      "RMS_enhancement": 2.0849226277553834,
+      "reference_enhancement": 2.0849291145517754,
+      "enhancement_ratio_to_reference": 0.9999968887208938,
+      "RMS_ratio_to_static": 1.0003753891140004,
+      "white_angular_enhancement": 2.0858687442979567,
+      "Ricci_to_background_per_epsilon": 926.9006798537872,
+      "percent_example": 0.0009269006798537871,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "time_projection",
+      "delta_radians": 0.25,
+      "effective_fraction": 0.06120868647605686,
+      "source_RMS_hbar_over_M4": 2310.2610674454495,
+      "static_RMS": 2309.3816211637313,
+      "RMS_enhancement": 4.034235491472639,
+      "reference_enhancement": 4.034226163644213,
+      "enhancement_ratio_to_reference": 1.0000023121729045,
+      "RMS_ratio_to_static": 1.000380814618796,
+      "white_angular_enhancement": 4.04197357690517,
+      "Ricci_to_background_per_epsilon": 1793.5128958536054,
+      "percent_example": 0.0017935128958536054,
+      "time_width_in_Planck_units": 200.0
+    },
+    {
+      "observable": "time_projection",
+      "delta_radians": 0.125,
+      "effective_fraction": 0.015543789018263634,
+      "source_RMS_hbar_over_M4": 4558.181469594731,
+      "static_RMS": 4556.404454084423,
+      "RMS_enhancement": 7.959610158493993,
+      "reference_enhancement": 7.95951864012396,
+      "enhancement_ratio_to_reference": 1.000011497977977,
+      "RMS_ratio_to_static": 1.0003900039007105,
+      "white_angular_enhancement": 8.020871406049215,
+      "Ricci_to_background_per_epsilon": 3538.629188950795,
+      "percent_example": 0.003538629188950795,
+      "time_width_in_Planck_units": 200.0
+    }
+  ],
+  "checks": {
+    "scalar_angular_L111_to143_relative": 2.2069888330602762e-10,
+    "scalar_joint_K_quadrature_time_tolerance_at_matched_L111_relative": 6.893744833118638e-10,
+    "focusing_angular_L111_to143_relative": 2.146969849412567e-10,
+    "focusing_joint_K_quadrature_time_tolerance_at_matched_L111_relative": 6.849578570440438e-10,
+    "external_J24_to32_relative_trace": 3.601814017292993e-05,
+    "external_J24_to32_relative_focusing": 4.810659522670158e-05,
+    "external_J28_to32_relative_trace": 1.0374112357960966e-06,
+    "external_J28_to32_relative_focusing": 1.5180468443207364e-06,
+    "whole_sphere_trace_old_relative": 6.818253739382385e-10,
+    "whole_sphere_time_projection_old_relative": 6.88791468306249e-10,
+    "pilot_relative_max": 0.3450871229662247,
+    "main_relative_max": 7.276556435412514e-05,
+    "extended_relative_max": 9.975043080671405e-08,
+    "minimum_normalized_covariance_eigenvalue": 0.0007130561631973715,
+    "spectrum_minimum": 327943.95297555777
+  },
+  "gates": {
+    "scalar_angular_L111_to143_relative": true,
+    "scalar_joint_K_quadrature_time_tolerance_at_matched_L111_relative": true,
+    "focusing_angular_L111_to143_relative": true,
+    "focusing_joint_K_quadrature_time_tolerance_at_matched_L111_relative": true,
+    "whole_sphere_trace_old_relative": true,
+    "whole_sphere_time_projection_old_relative": true,
+    "external_J24_to32_relative_trace": true,
+    "external_J24_to32_relative_focusing": true,
+    "external_J28_to32_relative_trace": true,
+    "external_J28_to32_relative_focusing": true,
+    "narrow_kernel_reference": true,
+    "independent_references": true,
+    "secondary_reference": true,
+    "portable_history_checked": true,
+    "restart_integrity": true,
+    "positive_covariance": true,
+    "positive_spectra": true
+  },
+  "all_primary_pass": true,
+  "covariances": {
+    "trace": [
+      [
+        1302407.7775774384,
+        1302407.7775774384,
+        1302407.7775774384,
+        1302407.7775774384,
+        1302407.7775774384
+      ],
+      [
+        1302407.7775774384,
+        1846537.1410279728,
+        2577703.0103342105,
+        2933983.4265495767,
+        3044264.265463458
+      ],
+      [
+        1302407.7775774384,
+        2577703.0103342105,
+        5651295.182293401,
+        8744387.667863516,
+        10198187.537530193
+      ],
+      [
+        1302407.7775774384,
+        2933983.4265495767,
+        8744387.667863516,
+        21035413.952881087,
+        33163269.523246
+      ],
+      [
+        1302407.7775774384,
+        3044264.265463458,
+        10198187.537530193,
+        33163269.523246,
+        80068571.64700116
+      ]
+    ],
+    "time_projection": [
+      [
+        327943.95297555777,
+        327943.95297555777,
+        327943.95297555777,
+        327943.95297555777,
+        327943.95297555777
+      ],
+      [
+        327943.95297555777,
+        465096.0868045897,
+        649455.8250310029,
+        739324.9062554146,
+        767147.252967789
+      ],
+      [
+        327943.95297555777,
+        649455.8250310029,
+        1425540.3443592356,
+        2208374.2856996376,
+        2576952.251733085
+      ],
+      [
+        327943.95297555777,
+        739324.9062554146,
+        2208374.2856996376,
+        5337306.199754188,
+        8453343.594732422
+      ],
+      [
+        327943.95297555777,
+        767147.252967789,
+        2576952.251733085,
+        8453343.594732422,
+        20777018.30975678
+      ]
+    ]
+  },
+  "scale_screen": [
+    {
+      "N": 10,
+      "epsilon_cap": 4e-06,
+      "max_percent": 2.778654030093056
+    },
+    {
+      "N": 30,
+      "epsilon_cap": 4.4444444444444444e-07,
+      "max_percent": 0.30873933667700626
+    },
+    {
+      "N": 100,
+      "epsilon_cap": 4e-08,
+      "max_percent": 0.027786540300930564
+    }
+  ],
+  "minimum_screen_length": 0.02
+}

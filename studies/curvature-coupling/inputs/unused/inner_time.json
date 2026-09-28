@@ -1,0 +1,7 @@
+{
+  "name": "inner_time",
+  "prior": "r030_fine",
+  "nt": 560,
+  "L": 191,
+  "Jmax": 32
+}

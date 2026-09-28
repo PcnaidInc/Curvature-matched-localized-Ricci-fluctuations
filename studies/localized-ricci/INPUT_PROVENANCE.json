@@ -1,0 +1,30 @@
+{
+  "date_utc": "2026-09-26",
+  "input_archive": "BlackHoles_Angular_Localization_and_Ricci_Fluctuations.zip",
+  "sha256": "64377615b7a513a0a1369f90270333a11cc409aaf327a7ca3c1af3fba5b36d54",
+  "bytes": 29044192,
+  "CRC_pass": true,
+  "reused_code": {
+    "localized_trace.py": {
+      "sha256": "4bac4a0c2ce5206ba65026d0a90cbec0f5126da9a71b160eb9c635f631715668",
+      "identical_to_source": true
+    },
+    "localized_trace_fast.py": {
+      "sha256": "1a923ca6bd5803483255384c74a4d452603995be47119a6c700cdb2dffd0094f",
+      "identical_to_source": true
+    },
+    "prepared_geometry.py": {
+      "sha256": "37d3659de2f1cbe9cf15def5105cdd5e184c3164024791502162ca00c085978d",
+      "identical_to_source": true
+    },
+    "reference_fluctuations.py": {
+      "sha256": "dfb5faba63d9dc8d85bed986a3f360709f2b64152c66542b5c49ed180d701e62",
+      "identical_to_source": true
+    },
+    "analyze.py": {
+      "sha256": "af6b8226efe19bd385c95be9da439577d2d6067fc479fb2fb14ae6518006eebb",
+      "identical_to_source": false
+    }
+  },
+  "old_arrays_usage": "Only overlap/regression; do not generate new covariance."
+}

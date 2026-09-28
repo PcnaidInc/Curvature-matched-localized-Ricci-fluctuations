@@ -1,0 +1,14 @@
+{
+  "gates": {
+    "spatial_polynomial": true,
+    "independent_wick_spectral_prefactor": true,
+    "direct_positive_frequencies": true
+  },
+  "all_pass": true,
+  "spatial_polynomial": "64/21",
+  "minimal_time_only_variance_coefficient": 0.000782170076547378,
+  "direct_quadrature_value": 0.0007821700765473782,
+  "relative_difference": 2.220446049250313e-16,
+  "formula": "Var(T_kk time Gaussian)=8 hbar^2/(105 pi^4 sigma^8) at xi=0",
+  "scope": "Independent normalization only: timelike sampling at fixed position with null tensor projection. Not null-line sampling, not the beam window, not a black-hole result."
+}

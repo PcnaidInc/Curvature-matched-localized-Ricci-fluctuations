@@ -1,0 +1,34 @@
+{
+  "M": 1,
+  "signature": "-+++",
+  "field": "x+(r-1)cos(theta)",
+  "k_components": [
+    "-1",
+    "1/(-1 + 2/r)",
+    "0",
+    "0"
+  ],
+  "expansion": "-2/r",
+  "screen_eigenvalues": [
+    "-1/r",
+    "-1/r"
+  ],
+  "field_first_affine_derivative": "-(r*cos(theta) + r - 2*cos(theta))/(r - 2)",
+  "field_second_affine_derivative": "-2/(r - 2)**2",
+  "gates": {
+    "ricci_flat_reference": true,
+    "radial_tangent_null": true,
+    "radial_tangent_affine": true,
+    "expansion_and_zero_shear": true,
+    "background_raychaudhuri": true,
+    "exact_scalar_field_equation": true,
+    "all_improved_stress_conservation": true,
+    "trace_factor": true,
+    "conformal_trace_zero": true,
+    "null_hessian_vs_along_geodesic": true,
+    "conformal_null_source_not_identically_zero": true
+  },
+  "all_pass": true,
+  "seconds": 4.555899067000155,
+  "scope": "exact background optical and conserved-source verification; not SPV-1 covariance or a nonlinear Einstein solve"
+}

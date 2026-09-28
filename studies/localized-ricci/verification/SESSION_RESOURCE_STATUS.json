@@ -1,0 +1,7 @@
+{
+  "memory_limit_bytes": 4294967296,
+  "memory_events": "low 0\nhigh 0\nmax 1877\noom 0\noom_kill 0\noom_group_kill 0\n",
+  "production_queue_complete": true,
+  "phase_history_and_final_checks_complete": true,
+  "prior_platform_failure_cause": "unknown"
+}

@@ -1,0 +1,260 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage[margin=0.80in]{geometry}
+\usepackage{amsmath,amssymb,bm,booktabs,longtable,array,graphicx}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdfauthor={Abdul Badran},pdftitle={Supplemental methods and reproducibility evidence}}
+\usepackage{microtype}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3.0pt}
+\renewcommand{\thesection}{S\arabic{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+\renewcommand{\theequation}{S\arabic{equation}}
+\renewcommand{\thetable}{S\arabic{table}}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\Cov}{\operatorname{Cov}}
+\newcommand{\Var}{\operatorname{Var}}
+\newcommand{\Tr}{\mathcal T}
+\newcommand{\Pp}{\mathcal P}
+\begin{document}
+\begin{center}
+{\Large\bfseries Supplemental methods and reproducibility evidence}\par
+\vspace{5pt}
+{\large Curvature-matched localized Ricci fluctuations in a prepared Schwarzschild interior}\par
+Abdul Badran\par
+Manuscript supplement --- revised 28 September 2026
+\end{center}
+
+This supplement specifies the numerical experiment behind the main article. The authoritative computational basis is the unmodified \texttt{BlackHoles\_Localized\_Inward\_Recovery.zip}. It is not a new production calculation or a compilation of all earlier project variants. Equations and tables below retain the final release's state, sampling, operator conventions, and uncertainty qualifications. The current manuscript-stage checks are identified separately in Sec.~S8.
+
+\section{Exact prepared state and field evolution}
+In numerical units $M=1$, define
+\begin{equation}
+ r_*(r)=r+2\ln(1-r/2),\qquad h(r)=2/r-1.
+\end{equation}
+The dimensionless switching time is $T=2$, and the initial radius $r_p$ is the root in $(1.5,2)$ of $r_*(r_p)=r_*(1.5)-1$. The switch is
+\begin{equation}
+ s(\eta)=\begin{cases}0,&z\leq0,\\
+ [1+\exp(1/z-1/(1-z))]^{-1},&0<z<1,\\
+ 1,&z\geq1,
+ \end{cases}\qquad z=\eta/2.
+ \label{eq:prep}
+\end{equation}
+The auxiliary history is fixed by
+\begin{equation}
+ r'=-h s,\qquad A=1-s+s h,\qquad m_{\rm aux}^2=1-s,
+ \qquad r(0)=r_p.
+\end{equation}
+For $\eta<0$, $A=1$, $r=r_p$, and $m_{\rm aux}=1$. For $\eta\geq2$, the field is massless and the background is Schwarzschild. The symmetry $s(2-\eta)=1-s(\eta)$ implies $\int_0^2s\,\dd\eta=1$; consequently $r(2)=1.5$. In the final region,
+\begin{equation}
+ \eta(r)=2+r_*(r)-r_*(1.5).
+\end{equation}
+The production code integrates the background with DOP853 and dense output, retaining an analytic relation for independent checks. The auxiliary history defines a quantum state rather than a semiclassical solution of stellar collapse. No stress computed on this auxiliary geometry is used to claim a physical collapse history.
+
+The mode $\chi_{\ell k}=r f_{\ell k}$ has initial conditions
+\begin{equation}
+ \chi(0)=\frac{1}{\sqrt{2\omega_p}},\qquad
+ \chi'(0)=-i\omega_p\chi(0),\qquad
+ \omega_p=\sqrt{k^2+\ell(\ell+1)/r_p^2+1}.
+\end{equation}
+The Wronskian is $\chi\chi^{*\prime}-\chi'\chi^*=i$. For the numerical width/phase method, let
+\begin{equation}
+ q=k^2+A[\ell(\ell+1)/r^2+m_{\rm aux}^2],\quad w=\sqrt q,\quad W=w+d,
+ \quad\chi=\frac{e^{-i\vartheta}}{\sqrt{2W}}.
+\end{equation}
+Writing $\chi'/\chi=u-iW$ yields the real evolution system
+\begin{align}
+ u'&=2wd+d^2+r''/r-u^2,\\
+ d'&=-2u(w+d)-q'/(2w),\\
+ \vartheta'&=w+d.
+\end{align}
+The direct complex oscillator equation is integrated independently for representative checks. Global constant mode phases cancel from the covariance. Positivity and normalization of the width representation are checked; no negative-width or failed integrator result is treated as a physical mode.
+
+\section{Sampling functions and physical support}
+\subsection{Proper time}
+For a monotonically inward comoving trajectory, define
+\begin{equation}
+ P(r)=2\arcsin\sqrt{r/2}-\sqrt{r(2-r)},\qquad
+ \tau=P(r_c)-P(r).
+\end{equation}
+Thus $\tau$ increases inward and $\dd\tau=\sqrt A\,\dd\eta$. The normalized time weight is
+\begin{equation}
+ F_\sigma(\tau)=\frac{e^{-z^2}c(z)}{\sigma\mathcal N},\quad z=\tau/\sigma,\quad
+ \mathcal N=\int_{-5}^{5}e^{-z^2}c(z)\dd z,
+\end{equation}
+where
+\begin{equation}
+ c(z)=\begin{cases}1,&|z|\leq4,\\
+ [1+\exp(-1/v+1/(1-v))]^{-1},&4<|z|<5,\ v=|z|-4,\\
+ 0,&|z|\geq5.
+ \end{cases}
+\end{equation}
+Gauss--Legendre quadrature on $z\in[-5,5]$ is multiplied by $e^{-z^2}c(z)$ and normalized. The complete endpoint support is checked through $P(r)$, not inferred from the first and last quadrature nodes. The numerical field background extends to $r/M=0.2$; the narrowest inner radius in any time support is $0.2071283198M$. Longitudinal Gaussian and angular heat-kernel tails are not compact, so the complete spacetime test function is not a compact spatial cell.
+
+\subsection{Longitudinal and angular normalization}
+The longitudinal Gaussian is $G(x)=e^{-x^2/b_x^2}/(\sqrt\pi b_x)$ with $b_x=b_c/\sqrt{A_c}$. Its transform is $\widehat G(q)=e^{-b_x^2q^2/4}$. The squared pair-amplitude weight is therefore $e^{-b_x^2q^2/2}$, not $e^{-b_x^2q^2/4}$. The two real-momentum sectors have $q=k+k'$ and $q=k-k'$.
+
+The angular weight is a normalized spherical heat kernel. With the pole along the $z$ axis,
+\begin{equation}
+ H_\delta(\Omega)=\sum_J\sqrt{\frac{2J+1}{4\pi}}
+ e^{-\delta^2J(J+1)/2}Y_{J0}(\Omega).
+\end{equation}
+Its integral is one. Its squared $L^2$ norm is $\sum_J(2J+1)e^{-\delta^2J(J+1)}/(4\pi)$, giving the effective-area convention in the main article. Rotating the pole does not change the covariance for the isotropic state and background. A finite $J_{\max}$ is a numerical truncation of a smooth kernel, not a replacement by a sharp cap.
+
+The ratios fixed at the window center are
+\begin{equation}
+ \sigma/L_K=0.1132696163,\quad b_c/L_K=1.4158702040,
+ \quad r_c\delta/L_K=0.8495221224\ \text{or}\ 1.6990442447.
+\end{equation}
+These center ratios do not make directional expansion rates identical, and they do not make each point in a finite window locally static. The uniform control has no finite localized angular width.
+
+\section{Angular reduction and positive pair norms}
+Use orthonormal complex scalar harmonics and the field-expansion normalization in the main article. The relevant Gaunt integral is
+\begin{equation}
+ \int\dd\Omega\,Y_{\ell m}Y_{p n}Y_{J0}
+ =\sqrt{\frac{(2\ell+1)(2p+1)(2J+1)}{4\pi}}
+ \begin{pmatrix}\ell&p&J\\0&0&0\end{pmatrix}
+ \begin{pmatrix}\ell&p&J\\m&n&0\end{pmatrix}.
+\end{equation}
+Integration by parts on the unit sphere gives
+\begin{equation}
+ \int\dd\Omega\,Y_{J0}\nabla Y_{\ell m}\cdot\nabla Y_{pn}
+ =\frac{\ell(\ell+1)+p(p+1)-J(J+1)}{2}
+ \int\dd\Omega\,Y_{J0}Y_{\ell m}Y_{pn}.
+\end{equation}
+Magnetic-index orthogonality removes cross terms between distinct $J$. The surviving $3j$ symbols require $|\ell-p|\leq J\leq\ell+p$ and even $\ell+p+J$. Summing field pairs only for $\ell\leq p$ adds a factor $2-\delta_{\ell p}$. These identities and exact-symbolic versus numerical weights are checked independently; standard harmonic identities are not claimed as new results [main article, Ref.~DLMF].
+
+For a normal-ordered quadratic operator $Q$, the part of $Q|0\rangle$ orthogonal to the vacuum consists of two-particle amplitudes. The connected covariance is their real inner product. This gives a positive semidefinite Gram matrix and explains why both source projections must use the same field pairs. Additive identity-valued terms drop out after centering, but they do not turn an unsmeared product into a well-defined observable. The prescribed spacetime filters and high-frequency convergence remain essential.
+
+For an angular pair, set $L=\ell(\ell+1)$, $P=p(p+1)$ and define $D,X,Z$ as in the main article. For a momentum sign $s$, let
+\begin{equation}
+ M_0=D-\tfrac12(L+P)Z,\quad B_0=M_0+s kk'X,\quad a_J=\tfrac12J(J+1).
+\end{equation}
+The six stored real moments, including momentum quadrature and the longitudinal factor, are
+\begin{align}
+ v_0&=\langle|B_0|^2\rangle,&v_1&=\langle\operatorname{Re}(B_0Z^*)\rangle,
+ &v_2&=\langle|Z|^2\rangle,\\
+ v_3&=\langle|D|^2\rangle,&v_4&=\langle\operatorname{Re}(B_0D^*)\rangle,
+ &v_5&=\langle\operatorname{Re}(ZD^*)\rangle.
+\end{align}
+Brackets here mean the numerical $k,k',s$ integral, not a quantum expectation value. Before the angular coefficient, the joint matrix is
+\begin{equation}
+ \begin{pmatrix}
+ v_0+2a_Jv_1+a_J^2v_2 & v_4+a_Jv_5\\
+ v_4+a_Jv_5 & v_3
+ \end{pmatrix}.
+\end{equation}
+Summing with the factor in the covariance-spectrum equation of the main article and the heat-kernel coefficient recovers the full covariance. The independent table audit uses this reduction on saved blocks rather than copying the final CSV.
+
+\section{Reference calculation and gravitational projection}
+\subsection{Reference is a control, not a replacement source}
+At fixed $r_c,A_c$, define $\omega_{\ell k}=\sqrt{k^2+A_c\ell(\ell+1)/r_c^2}$. A mode pair carries proper-time frequency $(\omega_{\ell k}+\omega_{pk'})/\sqrt{A_c}$. The same normalized time kernel is transformed at this frequency, and the same longitudinal and angular kernels are used. Multiplication by $-\omega_\ell\omega_p/A_c$, $1/A_c$, or $1/r_c^2$ gives $D$, $X$, or $Z$, respectively, from the common product.
+
+The compact-kernel Fourier transform is evaluated on a dense grid and interpolated. Direct transform and time-quadrature tests check that acceleration. Reference cutoffs are varied independently. The local reference is not fitted to the numerical interior. It uses another geometry and state; close agreement does not establish an exact additive separation into static noise and a dynamical excess. The derivative observables remain distinct from an undifferentiated massless $\ell=0$ vacuum two-point function with its infrared qualification.
+
+\subsection{Units and nonzero normalization}
+Numerical source variances have units $\hbar^2/M^8$. Let $D_c$ denote the sampled dimensionless background quantity
+\begin{equation}
+ D_c=\int \dd\tau\,F_\sigma(\tau)\frac{\sqrt{48}}{r(\tau)^3}.
+\end{equation}
+The values are $32.37400395$, $76.80368124$, and $259.43329339$ for $r_c/M=0.60,0.45,0.30$. The ratio for a source variance $C_{AA}$ is
+\begin{equation}
+ \chi_A=\epsilon\,\frac{8\pi\sqrt{C_{AA}}}{D_c},\qquad
+ \epsilon=G\hbar/M^2.
+\end{equation}
+The covariance of the two Ricci projections is $(8\pi G)^2\operatorname{diag}(-1,1)C\operatorname{diag}(-1,1)$; its cross entry has the opposite sign from the source trace/time covariance. The energy combination gives the observer-direction Einstein projection. No ratio is taken to the vanishing background Ricci scalar or to a vanishing quantum mean.
+
+The equations are leading Einstein-order local projections on a Ricci-flat reference. They do not determine the full constrained, retarded metric solution, Weyl curvature, intrinsic gravitational fluctuations, or higher-order polarization. The frozen reference is not put into those equations as a separate self-consistent gravitational spacetime.
+
+\section{Complete tabulated result}
+Table~\ref{tab:all} contains all 27 projection/window rows. ``U'' is uniform; ``W'' and ``N'' are wider and narrower heat-kernel families. The operators are $T=\Tr$, $P=\Pp$, and $E=\rho$. The source standard deviation is in $\hbar/M^4$. The final column is $100\chi_A$ for the illustrative common $\epsilon=10^{-9}$. Full precision and exact covariance spectra are supplied as CSV, not inferred from printed rounded values.
+
+\small
+\begin{longtable}{@{}ccccrrr@{}}
+\caption{Complete result rows from the saved numerical release.}\label{tab:all}\\
+\toprule
+$r_c/M$ & Operator & Window & $f_{\rm eff}$ & Source SD & SD/reference & $100\chi_A$ (\%)\\
+\midrule
+\endfirsthead
+\multicolumn{7}{l}{Table \thetable\ continued}\\\toprule
+$r_c/M$ & Operator & Window & $f_{\rm eff}$ & Source SD & SD/reference & $100\chi_A$ (\%)\\\midrule
+\endhead
+\bottomrule\endfoot
+\input{all_rows.tex}
+\end{longtable}
+\normalsize
+
+The stronger apparent excess of $E$ relative to its small frozen reference is not a larger effect relative to classical curvature. It is a cancellation-sensitive combination of the same correlated pair amplitudes. Neither an RMS nor a covariance matrix specifies the full probability distribution. In particular, no Gaussian rare-event tail or maximum fluctuation is inferred; the stress-statistics literature cited in the main article addresses distinct sampling/state settings.
+
+\section{Production configurations, acceptance, and failures}
+Seven archived campaigns contain 187,904 newly evolved $(\ell,k)$ labels and 896 saved correlation blocks. Counts are not multiplied by magnetic degeneracy or by the number of quadratic pairs. The three fine campaigns contain 480 blocks used by the independent manuscript-stage reduction. Their histories were generated for the stated prepared state and sampling times; prior mean-stress values cannot replace these unequal-time correlations.
+
+All field-angular orders run from zero through the listed maximum. $J_{\max}=32$ for the angular window; comparison with $J_{\max}=24$ tests its tail. The final three campaigns use relative integrator tolerance $2\times10^{-11}$, versus $2\times10^{-10}$ for the pilot/main cases. The exact absolute tolerances, momentum segmentation, solver settings, and source fingerprints are in the seven input JSON files. There is no fitted ultraviolet remainder in this calculation.
+
+Table S2 lists the numerical settings for every production campaign.
+
+\begin{center}
+\textbf{Table S2. Production configurations.}\\[4pt]
+\begin{tabular}{@{}lrrrr@{}}\toprule
+Campaign & $\ell_{max}$ & $k_{max}M$ & Momentum nodes & Time nodes\\\midrule
+Pilot at $0.60M$ &31&112&80&128\\
+$0.60M$ main &95&224&160&256\\
+$0.60M$ fine &127&256&192&320\\
+$0.45M$ main &127&400&192&320\\
+$0.45M$ fine &159&480&224&384\\
+$0.30M$ main &159&800&224&384\\
+$0.30M$ fine &191&960&256&448\\\bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Frozen acceptance plan}
+The source's validation plan predates the new production analysis. It requires: variance and normalized matrix changes below $1\%$ under last field-angular and matched-angular momentum/time/tolerance comparisons; external $J$ tail below $0.1\%$; previous outer-window overlap within $1\%$; representative independent identities/residuals below $10^{-8}$; covariance positive semidefinite up to $10^{-12}$ relative roundoff; and successful hash/restart/corruption rejection. The supplementary energy projection is checked separately. A supplementary failure is not repaired by overwriting a pressure or covariance component.
+
+The authoritative JSON contains 43 true gates. The largest final primary variance change is $2.5373856\times10^{-5}$ as a fraction, or $0.0025373856\%$. At the outer overlap the trace/time variance discrepancies are approximately $1.74\times10^{-11}$ and $1.06\times10^{-10}$. The minimum reported normalized covariance eigenvalue is $1.5033\times10^{-4}$, not a negative-roundoff case. These are tested numerical comparisons, not rigorous infinite-mode remainder bounds or total physical confidence intervals.
+
+\subsection{Failures retained}
+The pilot's largest variance discrepancy is $0.3047984$ as a fraction and is rejected. This is not the discrepancy of the accepted fine grid. Earlier interrupted work is preserved as historical reporting, not used as a substitute for the available arrays. Small implementation or output-handling failures recorded in the original release are not evidence of a physical instability. The portable histories have their own interpolation checks; they are not bit-for-bit replacements for dense time arrays or unrestricted new-window data.
+
+\section{Reproducibility and exact file provenance}
+The accompanying computational archive has 104,969,383 bytes and 4,170 entries. Its SHA-256 is
+\begin{center}\small\texttt{6dfce42994b5b82c15992430fc8c52336efdc}\\
+\texttt{907204f5d6d59579940d453b378}\normalsize\end{center}
+The two lines concatenate to one digest. The archive's 4,169-entry \texttt{FILE\_HASHES.json} was verified during this manuscript preparation. File names and identifiers are provenance references, not public repository accessions.
+
+These sizes and checksums identify the original computational release. The separately prepared public distribution excludes internal submission material and carries its own distribution manifest. Its retained numerical programs and scientific array files are unchanged, but that curated distribution is not byte-identical to the original ZIP. The original record remains the provenance reference for the results reported here.
+
+\begin{sloppypar}
+Key contents are the exact state/mode/pair code; seven configurations; per-block spectra and final numerical states; 480 checked phase-history blocks; \nolinkurl{INWARD_LOCALIZED_RESULTS.csv}; \texttt{ANGULAR\_SPECTRA.csv}; \texttt{FINAL\_VALIDATION.json}; the conditional scale tables; independent tests; failed outputs; and \texttt{RUN\_RECORD.json}. Some inherited code supports preceding mean studies but is not invoked to calculate these covariances. Its presence is not a claim of another mean run.
+\end{sloppypar}
+
+After extracting the numerical archive, use a Python environment meeting its included requirements and run from its root:
+\begin{verbatim}
+python reproduce.py verify
+python reproduce.py checks
+python reproduce.py assemble
+python reproduce.py full --workdir /path/to/NEW_EMPTY_DIRECTORY
+\end{verbatim}
+\texttt{verify} checks bytes only. \texttt{checks} runs bounded independent tests in a fresh temporary directory. \texttt{assemble} reduces saved results and can write analysis outputs; preserve an immutable original before doing so. \texttt{full} evolves all seven campaigns in a new directory, then assembles their results. A successful process exit is not a substitute for inspecting the validation JSON. These four modes must not be reported as the same level of reproduction.
+
+The report package also contains \texttt{audit/audit\_tables.py}, which accepts the extracted archive root and an output directory. It independently reduces saved fine-block moments and reconstructs the report tables. It does not repeat a quantum-mode evolution. No external publication or data repository has been created by generating this package. Before submission, supply working reviewer access and settle a release license and persistent data/software location.
+
+\section{Manuscript-stage verification and conditioned arithmetic}
+The report was prepared after an interrupted drafting attempt. A Jira progress note described earlier unshipped drafts; they were not mounted in the resumed workspace and were not treated as delivered documents. The current manuscript and supplement were rebuilt from the actual hashed numerical archive.
+
+New bounded work in this resumed drafting turn consists of: source-manifest verification; the independent reduction of 480 fine blocks; reconstruction of all 27 printed rows; direct calculation of the inward trace ratio and descriptive two-point exponent; rerunning the independent-check suite in a fresh temporary tree; generating figures from CSV; and compiling/rendering the report sources. There was \textbf{no full production quantum-mode campaign} during report writing.
+
+The independent reduction reproduces the angular spectra exactly. The largest relative primary-variance difference is $5.4142\times10^{-16}$. The supplementary energy difference is $7.9349\times10^{-13}$ relative to its own smaller variance, and the maximum discrepancy normalized to its parent covariance scale is $5.4142\times10^{-16}$. The current blanket $10^{-11}$ relative comparison therefore passes. A prior failed drafting attempt recorded a different reduction's $3.60\times10^{-11}$ energy-relative difference and a blanket-gate failure, with a $5.42\times10^{-16}$ parent-scale residual. That older failure is retained as historical information; it is not presented as a new failure or silently substituted for this run.
+
+This distinction illustrates numerical conditioning: subtracting correlated large terms can magnify relative error measured against a small residual. Both the residual-relative comparison and the parent-scale comparison should be reported. Neither justifies altering production data or relaxing a physical acceptance threshold after seeing a preferred sign. The exact current outputs and environment are in \texttt{audit/TABLE\_AUDIT.json} and the associated logs.
+
+\section{Interpretation boundaries and next discriminating test}
+The increase in the narrow-family trace ratio is $7.943948$ as the center radius halves. A conditional short-distance scaling $\operatorname{SD}(T)\sim\hbar L_K^{-4}$ and $\sqrt K\sim L_K^{-2}$ would give a ratio proportional to $r^{-3}$ and a factor eight. This is a manuscript-stage dimensional explanation, not an independent production simulation, a proof of universality, or an exact extraction of a curvature-only signal. The matched reference supplies the quantitative check.
+
+The principal result is for minimal coupling. An improved stress tensor at another curvature coupling changes both the trace and the nontrace source. The known conformal massless trace-noise null result is a useful control, but does not mean all stress fluctuations vanish. At fixed final Ricci-flat geometry a fixed-state operator comparison is distinct from re-preparing a state on the non-Ricci-flat auxiliary history. The planned test should separate these changes rather than combine them.
+
+\enlargethispage{3\baselineskip}
+Next test field-coupling/nontrace robustness, then a causal nonspherical gravitational observable and a separately justified collapse state. None was calculated here. Ring coherence, hit/bypass probabilities, an endpoint, universal quantum dominance, and novelty remain unestablished.
+
+\end{document}

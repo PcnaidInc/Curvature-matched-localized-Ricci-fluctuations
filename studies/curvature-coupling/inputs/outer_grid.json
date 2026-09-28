@@ -1,0 +1,9 @@
+{
+  "name": "outer_grid",
+  "prior": "r060_fine",
+  "nt": 400,
+  "L": 127,
+  "Jmax": 32,
+  "K": 288,
+  "nk": 224
+}

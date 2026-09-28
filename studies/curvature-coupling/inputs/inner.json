@@ -1,0 +1,7 @@
+{
+  "name": "inner",
+  "prior": "r030_fine",
+  "nt": 448,
+  "L": 191,
+  "Jmax": 32
+}

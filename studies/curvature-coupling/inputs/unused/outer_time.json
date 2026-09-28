@@ -1,0 +1,7 @@
+{
+  "name": "outer_time",
+  "prior": "r060_fine",
+  "nt": 400,
+  "L": 127,
+  "Jmax": 32
+}

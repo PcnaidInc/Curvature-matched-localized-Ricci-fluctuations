@@ -1,0 +1,7 @@
+{
+  "name": "outer",
+  "prior": "r060_fine",
+  "nt": 320,
+  "L": 127,
+  "Jmax": 32
+}

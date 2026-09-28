@@ -1,0 +1,41 @@
+{
+  "done": [
+    {
+      "name": "pilot",
+      "exitcode": 0,
+      "elapsed": 4.002409934997559
+    },
+    {
+      "name": "r060_main",
+      "exitcode": 0,
+      "elapsed": 62.01505494117737
+    },
+    {
+      "name": "r060_fine",
+      "exitcode": 0,
+      "elapsed": 132.033056974411
+    },
+    {
+      "name": "r045_main",
+      "exitcode": 0,
+      "elapsed": 128.03373384475708
+    },
+    {
+      "name": "r045_fine",
+      "exitcode": 0,
+      "elapsed": 258.0723900794983
+    },
+    {
+      "name": "r030_main",
+      "exitcode": 0,
+      "elapsed": 252.0702452659607
+    },
+    {
+      "name": "r030_fine",
+      "exitcode": 0,
+      "elapsed": 478.1196959018707
+    }
+  ],
+  "running": {},
+  "waiting": []
+}

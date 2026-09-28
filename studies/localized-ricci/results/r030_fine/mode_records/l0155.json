@@ -1,0 +1,11 @@
+{
+  "l": 155,
+  "labels": 256,
+  "nfev": 63902,
+  "seconds": 2.2914949539999725,
+  "normalization": 8.881784197001252e-16,
+  "fingerprint": "33cd49a1f09ba95de8b89182716373a305d13ecf90e4b558b4347aefcaa4b114",
+  "cache_hash": "b40d7fe4d40e22728921e6de87d4790ecbc60ad25ffa966fd2baedbe938bcadb",
+  "final_hash": "aae429cdcd6f893c8027cc3bc00a08e16f149e18714308089e4ccb0d27a40c59",
+  "utc": "2026-09-26T23:06:14.817779+00:00"
+}

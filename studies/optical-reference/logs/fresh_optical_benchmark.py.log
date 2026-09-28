@@ -1,0 +1,19 @@
+{
+  "all_pass": true,
+  "gates": {
+    "flat_conserved_pair": true,
+    "conformal_null_projection_present": true,
+    "angular_polynomial": true,
+    "positive_coupling_covariance": true,
+    "flat_direct_phase_space": true,
+    "flat_cutoff_refinement": true,
+    "kernel_time_fourier": true,
+    "dimensional_rescaling": true,
+    "optical_retarded_integral": true,
+    "optical_independent_ivp": true,
+    "optical_causal_support": true,
+    "optical_initial_data_accounting": true,
+    "optical_second_order_remainder": true
+  },
+  "seconds": 15.052346582000155
+}

@@ -1,0 +1,58 @@
+{
+  "sampling": [
+    {
+      "center": 0.6,
+      "support": [
+        0.4302265108822559,
+        0.7407810774998662
+      ],
+      "time_fraction": 0.1132696163231415,
+      "longitudinal_fraction": 1.4158702040392688,
+      "angular_fraction": 0.8495221224235612,
+      "norm": 0.9999999999999998,
+      "min_radius": 0.43023490598283004
+    },
+    {
+      "center": 0.45,
+      "support": [
+        0.3165380464298436,
+        0.5616331177843681
+      ],
+      "time_fraction": 0.1132696163231415,
+      "longitudinal_fraction": 1.4158702040392688,
+      "angular_fraction": 0.8495221224235612,
+      "norm": 0.9999999999999998,
+      "min_radius": 0.3165422629829569
+    },
+    {
+      "center": 0.3,
+      "support": [
+        0.2071283197610527,
+        0.37826215723983025
+      ],
+      "time_fraction": 0.11326961632314152,
+      "longitudinal_fraction": 1.415870204039269,
+      "angular_fraction": 0.8495221224235613,
+      "norm": 1.0,
+      "min_radius": 0.2071303542320005
+    }
+  ],
+  "fractions_relative_error": 2.220446049250313e-16,
+  "full_support_valid": true,
+  "analytic_background_overlap_abs": 7.105427357601002e-14,
+  "wigner_symbolic_relative": 4.007905118896815e-13,
+  "Gaunt_quadrature_relative": 1.8978152382942426e-12,
+  "trace_reversal_exact": true,
+  "rho_from_joint_exact": true,
+  "KG_trace_identity_exact": true,
+  "independent_complex_field_relative": 5.296384608363529e-11,
+  "independent_Wronskian_absolute": 1.2540857241560843e-11,
+  "joint_vs_direct_pairs_relative": 5.474315464385534e-16,
+  "energy_direct_combination_relative": 2.220446049250313e-16,
+  "phase_invariance_relative": 4.1057365982891477e-16,
+  "flat_trace_reference_relative": 2.0317081350640365e-14,
+  "flat_time_projection_reference_relative": 2.0317081350640365e-14,
+  "compact_Fourier_vs_quadrature_absolute": 4.440892098500626e-16,
+  "monopole_identity_relative": 1.0413891970983968e-13,
+  "all_pass": true
+}

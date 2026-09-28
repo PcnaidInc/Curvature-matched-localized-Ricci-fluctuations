@@ -1,0 +1,25 @@
+{
+  "documents": {
+    "START_HERE.pdf": {
+      "pages": 2,
+      "text_characters": 4257,
+      "inspected": true
+    },
+    "Coupling_Control_Addendum.pdf": {
+      "pages": 5,
+      "text_characters": 13829,
+      "inspected": true
+    }
+  },
+  "final_render_pixels_identical_to_visually_inspected_pages": [
+    "addendum-1.png",
+    "addendum-2.png",
+    "addendum-3.png",
+    "addendum-4.png",
+    "addendum-5.png",
+    "summary-1.png",
+    "summary-2.png"
+  ],
+  "undefined_references": false,
+  "overfull_boxes": false
+}

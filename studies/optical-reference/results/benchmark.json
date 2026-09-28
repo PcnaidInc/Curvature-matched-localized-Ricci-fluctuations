@@ -1,0 +1,165 @@
+{
+  "scope": "definition and reference milestone only; no SPV-1 interior quantum covariance generated",
+  "source_pair": {
+    "max_normalized_identity_residual": 1.565191118972504e-15,
+    "conformal_null_projection_nonzero": true
+  },
+  "quantum_flat_reference": {
+    "couplings": [
+      0.0,
+      0.08333333333333333,
+      0.16666666666666666,
+      0.25
+    ],
+    "angular_coefficients": [
+      0.03333333333333333,
+      0.0125,
+      0.005555555555555557,
+      0.012500000000000004
+    ],
+    "independent_angular_error": 2.1163626406917047e-16,
+    "variance_runs": [
+      {
+        "sigma": 1.0,
+        "delay": 12.0,
+        "spatial_width": 2.0,
+        "I": 2.3948021692782056,
+        "variance_coefficients": [
+          0.07982673897594018,
+          0.02993502711597757,
+          0.013304456495990033,
+          0.029935027115977578
+        ],
+        "rms_coefficients": [
+          0.28253626134699983,
+          0.17301741853344585,
+          0.1153449456889639,
+          0.17301741853344588
+        ],
+        "cutoff_quadrature_change": 9.103828801926284e-15,
+        "coarse_change": 2.886579864025407e-15,
+        "direct_phase_space_change": 9.880984919163893e-15
+      },
+      {
+        "sigma": 1.0,
+        "delay": 12.0,
+        "spatial_width": 4.0,
+        "I": 0.3514766735323375,
+        "variance_coefficients": [
+          0.011715889117744583,
+          0.004393458419154219,
+          0.0019526481862907645,
+          0.00439345841915422
+        ],
+        "rms_coefficients": [
+          0.10823996081736441,
+          0.06628316844534682,
+          0.044188778963564546,
+          0.06628316844534682
+        ],
+        "cutoff_quadrature_change": 9.325873406851315e-15,
+        "coarse_change": 2.886579864025407e-15,
+        "direct_phase_space_change": 1.0103029524088925e-14
+      },
+      {
+        "sigma": 1.0,
+        "delay": 12.0,
+        "spatial_width": 8.0,
+        "I": 0.04559809447154051,
+        "variance_coefficients": [
+          0.0015199364823846836,
+          0.0005699761808942563,
+          0.00025332274706411397,
+          0.0005699761808942565
+        ],
+        "rms_coefficients": [
+          0.03898636277449698,
+          0.023874173931138568,
+          0.01591611595409238,
+          0.02387417393113857
+        ],
+        "cutoff_quadrature_change": 9.992007221626409e-15,
+        "coarse_change": 3.1086244689504383e-15,
+        "direct_phase_space_change": 1.1102230246251565e-14
+      }
+    ],
+    "coupling_covariance_eigenvalues": [
+      -3.702694640693867e-18,
+      3.4949051506781256e-18,
+      0.01616969903944369,
+      0.047719189849445204
+    ],
+    "conformal_to_minimal_variance_ratio": 0.1666666666666667,
+    "conformal_to_minimal_rms_ratio": 0.4082482904638631,
+    "length_doubling_variance_ratio": 0.0625,
+    "expected_scaling": 0.0625,
+    "kernel_fourier_relative_error": 3.6943102225961256e-14
+  },
+  "schwarzschild_optical_reference": {
+    "M": 1.0,
+    "reference_r_intercept": 0.8,
+    "start_center": 0.02,
+    "end_center": 0.14,
+    "width": 0.006,
+    "full_support": [
+      -0.009999999999999998,
+      0.17
+    ],
+    "minimum_radius": 0.63,
+    "quadrature_retarded_value": -0.0017368421380717348,
+    "swapped_source_value": -0.0017368421380740506,
+    "independent_initial_value_value": -0.0017368421380735551,
+    "retarded_vs_swapped_relative": 1.333377852574813e-12,
+    "initial_value_vs_swapped_relative": 2.8532731732866523e-13,
+    "outside_support_value": 0.0,
+    "homogeneous_data_cancellation_absolute": 1.2880321809127793e-16,
+    "nonlinear_optical_only": [
+      {
+        "alpha": 0.04,
+        "nonlinear_optical_effect": -7.487941544694457e-05,
+        "linear_effect": -7.487997106522146e-05,
+        "remainder": 5.5561827689188e-10
+      },
+      {
+        "alpha": 0.02,
+        "nonlinear_optical_effect": -3.743984662686489e-05,
+        "linear_effect": -3.743998553261073e-05,
+        "remainder": 1.3890574583982516e-10
+      },
+      {
+        "alpha": 0.01,
+        "nonlinear_optical_effect": -1.871995803900516e-05,
+        "linear_effect": -1.8719992766305366e-05,
+        "remainder": 3.4727300204863594e-11
+      },
+      {
+        "alpha": 0.005,
+        "nonlinear_optical_effect": -9.359987701446633e-06,
+        "linear_effect": -9.359996383152683e-06,
+        "remainder": 8.681706049863073e-12
+      }
+    ],
+    "quadratic_halving_ratios": [
+      3.999966117546886,
+      3.999900511136517,
+      4.000054828556573
+    ]
+  },
+  "gates": {
+    "flat_conserved_pair": true,
+    "conformal_null_projection_present": true,
+    "angular_polynomial": true,
+    "positive_coupling_covariance": true,
+    "flat_direct_phase_space": true,
+    "flat_cutoff_refinement": true,
+    "kernel_time_fourier": true,
+    "dimensional_rescaling": true,
+    "optical_retarded_integral": true,
+    "optical_independent_ivp": true,
+    "optical_causal_support": true,
+    "optical_initial_data_accounting": true,
+    "optical_second_order_remainder": true
+  },
+  "all_pass": true,
+  "seconds": 13.860183973999938
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/tmp/xi_badblock_cap1xrpd/code/coupling.py", line 117, in <module>
+    run(json.loads(Path(a.config).read_text()),a.source,a.stop_after)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/xi_badblock_cap1xrpd/code/coupling.py", line 92, in run
+    if rec['fingerprint']!=fp or core.sha(p)!=rec['sha256']:raise ValueError('checkpoint hash mismatch')
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: checkpoint hash mismatch

@@ -1,0 +1,274 @@
+{
+  "date": "2026-09-27",
+  "ledger": "[internal record]",
+  "task": "[internal record]",
+  "original_input_sha256": "6dfce42994b5b82c15992430fc8c52336efdc907204f5d6d59579940d453b378",
+  "new_covariance_campaigns": [
+    {
+      "name": "outer",
+      "config": {
+        "name": "outer",
+        "prior": "r060_fine",
+        "nt": 320,
+        "L": 127,
+        "Jmax": 32
+      },
+      "effective_config": {
+        "center": 0.6,
+        "sigma": 0.02,
+        "bproper": 0.25,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.5,
+          0.25
+        ],
+        "name": "r060_fine",
+        "L": 127,
+        "K": 256,
+        "nk": 192,
+        "nt": 320
+      },
+      "pair_blocks": 128,
+      "pairs": 3696,
+      "block_seconds": 68.4039458819999,
+      "first_record_utc": "2026-09-27T22:12:46.347059+00:00",
+      "last_record_utc": "2026-09-27T22:13:54.106347+00:00",
+      "new_field_labels": 0,
+      "new_field_orders": 0,
+      "scope": "New covariance from cached phase histories",
+      "input_fingerprint": "696d47027a7f635b2a747f1a75a431ed4ea91e5f513ad9b2643ec486da36433f"
+    },
+    {
+      "name": "middle",
+      "config": {
+        "name": "middle",
+        "prior": "r045_fine",
+        "nt": 384,
+        "L": 159,
+        "Jmax": 32
+      },
+      "effective_config": {
+        "center": 0.45,
+        "sigma": 0.01299038105676658,
+        "bproper": 0.16237976320958225,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.4330127018922193,
+          0.21650635094610965
+        ],
+        "name": "r045_fine",
+        "L": 159,
+        "K": 480,
+        "nk": 224,
+        "nt": 384
+      },
+      "pair_blocks": 160,
+      "pairs": 4752,
+      "block_seconds": 142.70111359399974,
+      "first_record_utc": "2026-09-27T22:12:47.000425+00:00",
+      "last_record_utc": "2026-09-27T22:15:08.595695+00:00",
+      "new_field_labels": 0,
+      "new_field_orders": 0,
+      "scope": "New covariance from cached phase histories",
+      "input_fingerprint": "862b1f0dcaffb6db54105ca928c4ca469c7243b7f9556bf9033c9eea26d6215e"
+    },
+    {
+      "name": "inner",
+      "config": {
+        "name": "inner",
+        "prior": "r030_fine",
+        "nt": 448,
+        "L": 191,
+        "Jmax": 32
+      },
+      "effective_config": {
+        "center": 0.3,
+        "sigma": 0.007071067811865476,
+        "bproper": 0.08838834764831845,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.3535533905932738,
+          0.1767766952966369
+        ],
+        "name": "r030_fine",
+        "L": 191,
+        "K": 960,
+        "nk": 256,
+        "nt": 448
+      },
+      "pair_blocks": 192,
+      "pairs": 5808,
+      "block_seconds": 249.91654401199912,
+      "first_record_utc": "2026-09-27T22:14:06.130605+00:00",
+      "last_record_utc": "2026-09-27T22:18:14.681456+00:00",
+      "new_field_labels": 0,
+      "new_field_orders": 0,
+      "scope": "New covariance from cached phase histories",
+      "input_fingerprint": "34de3bd227589509cf18a2a096f8c95c95ee4f0c150c540fd055a7e0e403e219"
+    },
+    {
+      "name": "middle_time",
+      "config": {
+        "name": "middle_time",
+        "prior": "r045_fine",
+        "nt": 480,
+        "L": 159,
+        "Jmax": 32
+      },
+      "effective_config": {
+        "center": 0.45,
+        "sigma": 0.01299038105676658,
+        "bproper": 0.16237976320958225,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.4330127018922193,
+          0.21650635094610965
+        ],
+        "name": "r045_fine",
+        "L": 159,
+        "K": 480,
+        "nk": 224,
+        "nt": 480
+      },
+      "pair_blocks": 160,
+      "pairs": 4752,
+      "block_seconds": 167.59950010900047,
+      "first_record_utc": "2026-09-27T22:18:19.374627+00:00",
+      "last_record_utc": "2026-09-27T22:21:05.901116+00:00",
+      "new_field_labels": 0,
+      "new_field_orders": 0,
+      "scope": "New covariance from cached phase histories",
+      "input_fingerprint": "8c157e5fa12d29506afa4d7f60a25bc1ae1563c9aa0d7728d1780068bd9b1d44"
+    },
+    {
+      "name": "outer_grid",
+      "config": {
+        "name": "outer_grid",
+        "prior": "r060_fine",
+        "nt": 400,
+        "L": 127,
+        "Jmax": 32,
+        "K": 288,
+        "nk": 224
+      },
+      "effective_config": {
+        "center": 0.6,
+        "sigma": 0.02,
+        "bproper": 0.25,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.5,
+          0.25
+        ],
+        "name": "outer_grid",
+        "L": 127,
+        "K": 288,
+        "nk": 224,
+        "nt": 400
+      },
+      "pair_blocks": 128,
+      "pairs": 3696,
+      "block_seconds": 297.74918623199954,
+      "first_record_utc": "2026-09-27T22:15:54.516459+00:00",
+      "last_record_utc": "2026-09-27T22:20:08.520842+00:00",
+      "new_field_labels": 28672,
+      "new_field_orders": 128,
+      "scope": "Fresh phase evolution plus new covariance",
+      "input_fingerprint": "0d1382d96ece12eb159366de4db850eac11e943e6d5b93d311484f49d620fdcc"
+    },
+    {
+      "name": "inner_grid",
+      "config": {
+        "name": "inner_grid",
+        "prior": "r030_fine",
+        "nt": 560,
+        "L": 191,
+        "Jmax": 32,
+        "K": 1152,
+        "nk": 320
+      },
+      "effective_config": {
+        "center": 0.3,
+        "sigma": 0.007071067811865476,
+        "bproper": 0.08838834764831845,
+        "seed": 1.0,
+        "rmin": 0.2,
+        "rtol": 2e-11,
+        "Jmax": 32,
+        "angular_deltas": [
+          0.3535533905932738,
+          0.1767766952966369
+        ],
+        "name": "inner_grid",
+        "L": 191,
+        "K": 1152,
+        "nk": 320,
+        "nt": 560
+      },
+      "pair_blocks": 192,
+      "pairs": 5808,
+      "block_seconds": 1080.6756047189983,
+      "first_record_utc": "2026-09-27T22:22:11.188426+00:00",
+      "last_record_utc": "2026-09-27T22:38:12.466760+00:00",
+      "new_field_labels": 61440,
+      "new_field_orders": 192,
+      "scope": "Fresh phase evolution plus new covariance",
+      "input_fingerprint": "14c1c621a7c6a693e659a4607b26471acb9ca8b2dd5c65c71ec0b19cfd2045fe"
+    }
+  ],
+  "total_new_covariance_blocks": 960,
+  "total_new_production_field_labels": 90112,
+  "total_pair_evaluations": 28512,
+  "summed_block_seconds": 2007.045894547997,
+  "checked_reused_history_blocks": 480,
+  "small_independent_mode_checks": "Six representative independent complex modes in the initial check suite; six more in each separately recorded fresh-directory checks or assembly validation. Not production labels.",
+  "runtime_note": "Summed block times are not turn elapsed or a GPU/HPC estimate. Mode generation for fresh grids is included where generated inside a covariance block.",
+  "omissions": "Dense transient fresh mode_cache arrays are intentionally not bundled; source, grids, final states and new covariance blocks are retained. Same-window cached input histories are bundled as a clearly identified prior subset.",
+  "no_new_work": [
+    "absolute vacuum renormalization",
+    "full mean backreaction",
+    "xi-dependent preparation",
+    "full retarded metric/Weyl covariance",
+    "ring coherence",
+    "external review or submission"
+  ],
+  "software": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sympy": "1.14.0",
+    "matplotlib": "3.10.8"
+  },
+  "commands": [
+    "coupling.py inputs/outer.json --source <verified-prior-tree>",
+    "coupling.py inputs/middle.json --source <verified-prior-tree>",
+    "coupling.py inputs/inner.json --source <verified-prior-tree>",
+    "coupling.py inputs/middle_time.json --source <verified-prior-tree>",
+    "coupling_fresh.py inputs/outer_grid.json --source <verified-prior-tree>",
+    "coupling_fresh.py inputs/inner_grid.json --source <verified-prior-tree>",
+    "check_tensor.py",
+    "check_pairs.py inputs/prior",
+    "check_gram.py inputs/prior",
+    "check_unreduced_trace.py inputs/prior",
+    "analyze.py inputs/prior",
+    "reproduce.py checks",
+    "reproduce.py assemble --workdir NEW",
+    "reproduce.py verify"
+  ]
+}

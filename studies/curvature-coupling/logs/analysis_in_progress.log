@@ -1,0 +1,48 @@
+{
+  "all_primary_pass": false,
+  "execution": [
+    {
+      "campaign": "inner",
+      "pair_blocks": 192,
+      "pair_evaluations": 5808,
+      "summed_block_seconds": 249.91654401199912,
+      "new_field_labels": 0,
+      "scope": "cached phase-history contraction"
+    },
+    {
+      "campaign": "middle",
+      "pair_blocks": 160,
+      "pair_evaluations": 4752,
+      "summed_block_seconds": 142.70111359399974,
+      "new_field_labels": 0,
+      "scope": "cached phase-history contraction"
+    },
+    {
+      "campaign": "middle_time",
+      "pair_blocks": 160,
+      "pair_evaluations": 4752,
+      "summed_block_seconds": 167.59950010900047,
+      "new_field_labels": 0,
+      "scope": "cached phase-history contraction"
+    },
+    {
+      "campaign": "outer",
+      "pair_blocks": 128,
+      "pair_evaluations": 3696,
+      "summed_block_seconds": 68.4039458819999,
+      "new_field_labels": 0,
+      "scope": "cached phase-history contraction"
+    },
+    {
+      "campaign": "outer_grid",
+      "pair_blocks": 128,
+      "pair_evaluations": 3696,
+      "summed_block_seconds": 297.74918623199954,
+      "new_field_labels": 28672,
+      "scope": "new field/grid"
+    }
+  ],
+  "accepted_scope": "fixed Cauchy state on final Ricci-flat Schwarzschild, trace and one trace-reversed observer projection; not a different collapse preparation or full metric",
+  "notes": "new nontrace contractions; trace dependence exact. Grid comparison is fresh time/momentum/ODE at outer and inner, history time-grid only middle. Cutoff tails are not rigorous infinite-tail bounds."
+}
+FAILED ['inner_d0_xi0.0_grid', 'inner_d0_xi0.08333333333333333_grid', 'inner_d0_xi0.16666666666666666_grid', 'inner_d0_xi0.25_grid', 'inner_d0.3535533905932738_xi0.0_grid', 'inner_d0.3535533905932738_xi0.08333333333333333_grid', 'inner_d0.3535533905932738_xi0.16666666666666666_grid', 'inner_d0.3535533905932738_xi0.25_grid', 'inner_d0.1767766952966369_xi0.0_grid', 'inner_d0.1767766952966369_xi0.08333333333333333_grid', 'inner_d0.1767766952966369_xi0.16666666666666666_grid', 'inner_d0.1767766952966369_xi0.25_grid']

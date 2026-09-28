@@ -1,0 +1,8 @@
+{
+  "same_csv_bytes": true,
+  "sha256": "4014fd2157013df81aaad58f5e31a8f4e41b4c886f8dcd303a6898c75e89e572",
+  "all_primary_pass": true,
+  "new_production_modes": 0,
+  "small_reference_modes": 6,
+  "scope": "Resummed archived new blocks and independently rebuilt all 36 cases in a fresh directory"
+}

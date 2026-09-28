@@ -1,0 +1,23 @@
+{
+  "gram_direct_parent_normalized_max": 1.6991090538177275e-15,
+  "flat_exact_matrix_coefficient_over_pi4": [
+    [
+      "2/35",
+      "3/70",
+      "0"
+    ],
+    [
+      "3/70",
+      "3/70",
+      "1/420"
+    ],
+    [
+      "0",
+      "1/420",
+      "1/420"
+    ]
+  ],
+  "flat_numerical_error": 4.464950429381985e-15,
+  "flat_reference_scope": "Massless Minkowski vacuum; time-only Gaussian unit exponent width, no spatial average. Independent reference, not the interior observable.",
+  "all_pass": true
+}
