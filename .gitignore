@@ -18,6 +18,8 @@ manuscript/*.log
 *.synctex.gz
 # Do not push redundant raw handoff archives
 *.zip
+# Explicitly allow the user-authorized R14 handoff archive on this branch
+!codex-handoff/BlackHoles_R93R14_Complete_2026-10-12.zip
 # Codex-local scientific archives and private research outputs
 /.codex-local/
 /codex-handoff/private/
