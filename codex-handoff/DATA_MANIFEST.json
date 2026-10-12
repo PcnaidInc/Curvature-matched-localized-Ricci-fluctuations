@@ -1,0 +1,39 @@
+{
+  "created_date": "2026-10-12",
+  "purpose": "Public branch handoff; source snapshots and docs only, no private numeric archives",
+  "repository": "PcnaidInc/Curvature-matched-localized-Ricci-fluctuations",
+  "branch": "codex/blackholes-r14-handoff-2026-10-12",
+  "base_main_sha": "f282dae2d2de62acdd336283a4c8409e87c47e2f",
+  "latest_release": {
+    "filename": "BlackHoles_R93R14_Complete_2026-10-12.zip",
+    "bytes": 61043196,
+    "sha256": "2212ca6e2592de38121636a90efe5c92ae256968bf920e689e0acdc16b1711d1",
+    "git_published": false,
+    "private_local_bundle": true,
+    "payload_count": 67
+  },
+  "latest_tracker": {
+    "filename": "BlackHoles_Task_Tracker_R93R14_2026-10-12.xlsx",
+    "bytes": 145892,
+    "sha256": "dda0a41f3069180bd42cdaf9a58f9a10542e4f9fa46a6cf158ab75d452da7335",
+    "git_published": false,
+    "bundled_for_local_use": true,
+    "task_ids": 56
+  },
+  "science_status": {
+    "preparation_C": 6696080,
+    "state_width_component_upper": 0.000818883,
+    "component_is_total_error": false,
+    "continuum_scalar_accepted": false,
+    "feedback_verdict_available": false
+  },
+  "missing_or_separate": [
+    "Original Batch93 scientific arrays (missing)",
+    "Rejected PCNBR-92 metric result",
+    "Original R13 evidence archive (unavailable, not recovered)",
+    "Independent parallel releases not merged"
+  ],
+  "private_local_path": ".codex-local/r14/BlackHoles_R93R14_2026-10-12",
+  "important_distinction": "Original SL0-1 detector not equivalent to internal chi-weighted scalar",
+  "no_new_scientific_calculation_during_handoff": true
+}

@@ -1,0 +1,17 @@
+{
+  "source_zip": "BlackHoles_R93R13C_Complete_2026-10-12.zip",
+  "sha256": "956a89bfa394a08295f4c5f8ffa70ab5aee709ec5fa5e6683638638d69c6f1f4",
+  "verified_payloads": 45,
+  "source_physics_reexecuted": false,
+  "new_work": "new all-time preparation enclosure, not recovery of original R13",
+  "source_code": [
+    {
+      "path": "vendor/active_enclosure.py",
+      "sha256": "c9c1ac5aa00815be6b2d4cb9646145301fac9bd324442282de2cd439320596ca"
+    },
+    {
+      "path": "vendor/conditional_budget_R13C.py",
+      "sha256": "cd134075063229ea3b34aebddb983825844c4d264d19e05cfd48dd2a2c25f468"
+    }
+  ]
+}

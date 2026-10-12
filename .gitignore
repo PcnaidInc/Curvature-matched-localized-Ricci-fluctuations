@@ -18,3 +18,7 @@ manuscript/*.log
 *.synctex.gz
 # Do not push redundant raw handoff archives
 *.zip
+# Codex-local scientific archives and private research outputs
+/.codex-local/
+/codex-handoff/private/
+/codex-handoff/local-data/

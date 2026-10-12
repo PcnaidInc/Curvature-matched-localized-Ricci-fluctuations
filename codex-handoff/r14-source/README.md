@@ -1,0 +1,3 @@
+# R14 public source-only inspection snapshot
+
+These files are byte-for-byte copies of selected **text** sources from the immutable R14 archive. `SOURCE_MANIFEST.json` supplies the SHA-256 of the original release member for each copied text file. Their inclusion in this public branch is not a new calculation, validation, or release of raw numeric arrays. `reproduce.py` in this directory requires the original archive's `MANIFEST.json`, `inputs/` and `results/` and is **not standalone** here. Stage and verify the full R14 ZIP locally using `../scripts/stage_r14.py` before exercising it. The latest full work remains a separate local ZIP, not a replacement for the earlier public manuscript studies.

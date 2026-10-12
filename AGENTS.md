@@ -1,0 +1,25 @@
+# BlackHoles research — Codex agent contract
+
+Read `codex-handoff/START_HERE.md` then `codex-handoff/CURRENT_STATE.md`, `codex-handoff/NEXT_WORK.md`, `codex-handoff/REPRODUCIBILITY.md` and `codex-handoff/RESEARCH_INTEGRITY.md` **before** changing scientific code. Read deeper `AGENTS.md` if any. Keep the historical manuscript/reproducibility studies in this repository unchanged unless a task explicitly calls for a reviewed edit.
+
+## Goal and attribution
+The research owner asks **whether quantum physics becomes essential near the regime that classical general relativity describes as a black-hole singularity, while classical relativity may remain useful macroscopically**. Do not substitute guaranteed repulsion, singularity removal, Hawking-origin stress, a Big Bang equivalence, or any claimed ring-superposition/hit-bypass proof. The ideas originated with the research owner; equations, specialized implementations, and numerical methods supplied by AI systems are **not** the owner's unaided derivations. Adopt published mathematics with attribution; independently implemented code alone does not prove novelty or physical correctness.
+
+## Freeze scientific scope
+- The first pilot **SL0-1** is angularly averaged yet **longitudinally localized**. It is neither a homogeneous model nor the original fully angularly localized detector. The *internal chi-weighted scalar benchmark* of R14 is **not SL0-1**.
+- Preserve SPV-1 preparation, specified nonrotating Schwarzschild region, and geometry-pulse conventions. Do not change state, measurement filters, renormalization representation, subtraction mass, units, or boundary/initial data merely to improve numerical agreement.
+- Current latest R14 release is a **bounded smooth-preparation error component**. It does not certify older spline arrays or the full continuum scalar, tensor, gravity feedback, or near-singularity hypothesis.
+- Original PCNBR-92 metric-transfer result remains **rejected**. Original Batch93 scientific arrays remain **missing**; subsequent independent reconstructions are not recovery of them. Parallel scientific variants must remain separate.
+
+## Working rules
+1. Never overwrite verified evidence or failed tests. Create versioned branches, output directories, checkpoints, hashes and reproducible run manifests. Distinguish read-only verification, saved-data reconstruction, isolated mathematical checks, actual new mode evolution, and a full production calculation.
+2. Verify the local R14 archive using `python codex-handoff/scripts/stage_r14.py --archive <path>` before continuing. Its numerical arrays and confidential tracking material are deliberately NOT in this public branch. Do not pretend this branch alone contains the full computational history.
+3. Freeze acceptance gates before a run; retain misses against the original **1% required / 0.1% target** where applicable, plus selected control targets specified by each experiment. A component pass is not a physical result.
+4. Validate conservation/varied Ward, Einstein constraints, initial data, observational readout, and same-source covariance before claiming a feedback verdict. A small numerical discrepancy on the raw quantity does not demonstrate precision of a subtracted remainder.
+5. Use separate producer and validator tasks when useful, but prevent concurrent writes to the same output path. Avoid oversubscribing memory. Commit the **code and limited, screened results**; keep raw/cached private data under `.codex-local/` and never force-add them.
+6. Private Jira ledger: project **PCNBR**. Before scientific rounds read master **PCNBR-1**, operating protocol **PCNBR-27**, parent **PCNBR-81**, latest bounded release **PCNBR-111**, and affected issue. Update Jira in the same round through *authorized connected tools*, verify writes. If unavailable, maintain a local pending ledger and clearly report **JIRA SYNC PENDING**. No alternate binary upload after a restriction/denial.
+7. **Do not publish, merge, submit manuscripts, spend money, delete records, edit accounts/permissions, or upload private archives without explicit authorization.** The requested handoff branch is not authorization for additional public publication. PR drafts require human review before merge.
+8. Maintain all **56 tracker IDs and prior statuses/history**; task fractions are not proof percentages. Record exact file identities, byte sizes, hashes, run methods, uncertainty, failures, and next gates. Preserve the approved manuscript unchanged.
+
+## Immediate bounded task
+After staging and verifying the R14 release, implement a tested, documented bound on the **comparison-width exact retarded scalar response minus R12's local-order-nine trial**, with correct initial mismatch, both field legs, original measurement weight, and separate numerical geometry/field/global-tail errors. **Do not run a new full angular sum first.** Do not treat R14's `C=6,696,080` or its `<0.000818883` component as the total error. See `codex-handoff/NEXT_WORK.md` for acceptance and sequencing.

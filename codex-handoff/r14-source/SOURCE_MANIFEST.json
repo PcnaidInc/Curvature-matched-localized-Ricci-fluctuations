@@ -1,0 +1,62 @@
+{
+  "release_archive_sha256": "2212ca6e2592de38121636a90efe5c92ae256968bf920e689e0acdc16b1711d1",
+  "notice": "Source-only snapshot; full release manifest and result arrays are not here",
+  "source_files": {
+    "code/assemble_results.py": {
+      "bytes": 4519,
+      "sha256": "4cbe796dd918d0796c167703bf63cdb43100387a033c224653bf8f8260b2a77e"
+    },
+    "code/check_compatibility.py": {
+      "bytes": 3131,
+      "sha256": "7288398d6b0f55480331589b4ec8e2f2d529060d8c6dc0b4d6cdf5dcec500cec"
+    },
+    "code/check_preparation.py": {
+      "bytes": 3807,
+      "sha256": "5d46fee76da42b45f4a8a6bd5ebe24d6993caf3841418aa48e12a89a1ff3b824"
+    },
+    "code/preparation_enclosure.py": {
+      "bytes": 9353,
+      "sha256": "5e05ff3c388e6ce81cfabe32d6b9977f0cf9149dbd6541ee7a3e98f7c7661a09"
+    },
+    "code/propagate_component.py": {
+      "bytes": 1822,
+      "sha256": "76cad25d2aa1ec1fec0e1ddec1ba40bf9efc3baa13b92e41164688edbf6e23f4"
+    },
+    "code/reader.py": {
+      "bytes": 828,
+      "sha256": "902fb78ef26d1b4790b0624513be6f80575736b01ec072ac959f170cd493cba3"
+    },
+    "code/verify_certificate.py": {
+      "bytes": 2273,
+      "sha256": "b4ca955d5eb6ce11955ae35fdd98f8b28b2bf862b4afe9b122d653d68af43773"
+    },
+    "inputs/ENVIRONMENT.json": {
+      "bytes": 206,
+      "sha256": "f4cb97c509de5143c7c261c9eefd32b9a894aa70513094096e911c9d1f2ad2d6"
+    },
+    "inputs/PROVENANCE.json": {
+      "bytes": 601,
+      "sha256": "ec117fde0ff96dabd933ad516efe98b7e01b497646826229b7ecb5a714d9a7b9"
+    },
+    "reports/METHODS.md": {
+      "bytes": 14562,
+      "sha256": "1e2be26406ec82e0d8acc9884e353c8a38d0d850fb78bb44b1876e32583dcbd6"
+    },
+    "reproduce.py": {
+      "bytes": 2209,
+      "sha256": "956531a4b3005c9d40fad04cde39f38aecfb009c16da113fdac562d66a352ae3"
+    },
+    "requirements.txt": {
+      "bytes": 120,
+      "sha256": "1869780ddc63c03048d0358f47710dcb504a9e4007b09e5c3848e6e82d4ad6c4"
+    },
+    "vendor/active_enclosure.py": {
+      "bytes": 4744,
+      "sha256": "c9c1ac5aa00815be6b2d4cb9646145301fac9bd324442282de2cd439320596ca"
+    },
+    "vendor/conditional_budget_R13C.py": {
+      "bytes": 5519,
+      "sha256": "cd134075063229ea3b34aebddb983825844c4d264d19e05cfd48dd2a2c25f468"
+    }
+  }
+}
